@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  load_data:
+    cmd: python src/load_data.py --config=params.yaml
+    deps:
+    - path: data/raw/Concrete_Data.csv
+      md5: e195fcfc85ac7da75bf58f38b6254162
+      size: 59285
+    - path: src/get_data.py
+      md5: 48e1f343a6a6f45ef203999496af1441
+      size: 636
+    - path: src/load_data.py
+      md5: 9a4f3590c6e54507c7ece1e3b8e16c9d
+      size: 604
+    outs:
+    - path: data/raw/Concrete_raw.csv
+      md5: 1af10ddba3fb271a9e3d0f8adab7ebf8
+      size: 49542

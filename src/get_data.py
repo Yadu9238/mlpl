@@ -15,10 +15,10 @@ def read_data(config_path):
     data_path = config['data_source']['raw_data']
     print(data_path)
     data = pd.read_csv(data_path,sep =',',encoding='utf-8')
-    print(data.head())
-
+    return data
+    
 if __name__ == '__main__':
     args = argparse.ArgumentParser()
     args.add_argument("--config",default="params.yaml")
     parsed_args = args.parse_args()
-    read_data(parsed_args.config)
+    data = read_data(parsed_args.config)

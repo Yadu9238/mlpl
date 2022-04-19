@@ -1,13 +1,14 @@
 base:
   project: Compressive-strength
   random_state: 37
-  target_col: Concrete compressive strength(MPa, megapascals) 
+  target_col: Concrete compressive strength
 
 
 data_source:
-  raw_data: data/raw/Concrete_Data.xls
+  raw_data: data/raw/Concrete_Data.csv
 
-
+load_data:
+  raw_data: data/raw/Concrete_raw.csv
 split_data:
   train_path: data/processed/train_data.csv
   test_path: data/processed/test_data.csv
