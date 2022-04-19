@@ -1,9 +1,5 @@
 {
-    "max_depth": [
-        4,
-        7
-    ],
-    "n_estimators": [
-        50
-    ]
+    "model": "RandomForest",
+    "max_depth": 58,
+    "n_estimators": 52
 }

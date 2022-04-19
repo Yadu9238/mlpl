@@ -42,7 +42,7 @@ def train(config_path):
 
     y_train = train_data[target]
     y_test = test_data[target]
-    model = build_model(X_train,X_test,y_train,y_test)
+    model,params = build_model(X_train,X_test,y_train,y_test)
     model.fit(X_train,y_train)
     '''
     model = RandomForestRegressor(max_depth=max_depth,n_estimators=n_estimators)
@@ -64,9 +64,11 @@ def train(config_path):
             "r2" : r2
         }
         json.dump(score,f,indent=4)
+    best_params = {}
     with open(params_file,'w+') as f:
-        params = config['estimators']['RandomForestRegressor']['params']
-        json.dump(params,f,indent=4)
+        for k,v in params.items():
+            best_params[k] = v
+        json.dump(best_params,f,indent=4)
 
 
     os.makedirs(model_dir,exist_ok=True)

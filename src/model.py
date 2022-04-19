@@ -45,4 +45,4 @@ def build_model(X_train,X_test,y_train,y_test):
     for k,v in res.params.items():
         print("    {}:{}".format(k,v))
     
-    return create_model(res)
+    return (create_model(res),res.params)
