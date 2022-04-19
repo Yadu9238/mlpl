@@ -7,5 +7,13 @@ stages:
     - data/raw/Concrete_Data.csv
     outs:
     - data/raw/Concrete_raw.csv
+  split_data:
+    cmd: python src/split_data.py --config=params.yaml
+    deps:
+    - src/split_data.py
+    - data/raw/Concrete_Data.csv
+    outs:
+    - data/processed/test_data.csv
+    - data/processed/train_data.csv
 
-    
+

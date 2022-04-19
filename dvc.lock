@@ -16,3 +16,19 @@ stages:
     - path: data/raw/Concrete_raw.csv
       md5: 1af10ddba3fb271a9e3d0f8adab7ebf8
       size: 49542
+  split_data:
+    cmd: python src/split_data.py --config=params.yaml
+    deps:
+    - path: data/raw/Concrete_Data.csv
+      md5: e195fcfc85ac7da75bf58f38b6254162
+      size: 59285
+    - path: src/split_data.py
+      md5: d776443ac0b311397891475367940c65
+      size: 961
+    outs:
+    - path: data/processed/test_data.csv
+      md5: b9117085c3ae889cc6b009c63dd6e0ae
+      size: 10006
+    - path: data/processed/train_data.csv
+      md5: 43e9952f3c380f562cc1491f9dfc6a80
+      size: 39670
