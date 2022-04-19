@@ -15,5 +15,21 @@ stages:
     outs:
     - data/processed/test_data.csv
     - data/processed/train_data.csv
+  train_data:
+    cmd: python src/train.py --config=params.yaml
+    deps:
+    - src/train.py
+    - data/processed/train_data.csv
+    - data/processed/test_data.csv
+    params:
+    - estimators.RandomForestRegressor.params.max_depth
+    - estimators.RandomForestRegressor.params.n_estimators
+    
+    metrics:
+    - report/scores.json:
+        cache: false
+    - report/params.json:
+        cache: false
 
-
+    outs:
+    - saved_models/model.joblib

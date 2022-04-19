@@ -9,6 +9,7 @@ data_source:
 
 load_data:
   raw_data: data/raw/Concrete_raw.csv
+
 split_data:
   train_path: data/processed/train_data.csv
   test_path: data/processed/test_data.csv
@@ -19,7 +20,10 @@ estimators:
     params:
       max_depth: 4
       n_estimators: 200
-      learning_rate: 0.1
+      
 
 model_dir: saved_models
 
+report:
+  scores: report/scores.json
+  params: report/params.json
