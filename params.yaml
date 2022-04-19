@@ -18,8 +18,8 @@ split_data:
 estimators:
   RandomForestRegressor:
     params:
-      max_depth: 4
-      n_estimators: 200
+      max_depth: [4,7]
+      n_estimators: [50]
       
 
 model_dir: saved_models

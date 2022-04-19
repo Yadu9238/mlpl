@@ -1,7 +1,7 @@
 import os 
 import pandas as pd
 import numpy as np 
-
+from model import build_model
 from sklearn.metrics import mean_squared_error, r2_score,mean_absolute_error
 from get_data import read_params
 from sklearn.ensemble import RandomForestRegressor
@@ -42,15 +42,17 @@ def train(config_path):
 
     y_train = train_data[target]
     y_test = test_data[target]
-
+    model = build_model(X_train,X_test,y_train,y_test)
+    model.fit(X_train,y_train)
+    '''
     model = RandomForestRegressor(max_depth=max_depth,n_estimators=n_estimators)
     model.fit(X_train,y_train)
-
+    '''
     predicted = model.predict(X_test)
 
     (rmse,mae,r2) = eval(predicted,y_test)
 
-    print("RF model:(max_depth=%f,n_est=%f):"%(max_depth,n_estimators))
+    #print("RF model:(max_depth=%f,n_est=%f):"%(max_depth,n_estimators))
     print("RMSE = ",rmse)
     print("MAE = ",mae)
     print("R2 = ",r2)
@@ -71,7 +73,7 @@ def train(config_path):
     model_path = os.path.join(model_dir,"model.joblib")
 
     joblib.dump(model,model_path)
-
+    
 
 
 
