@@ -1,5 +1,5 @@
 {
-    "model": "RandomForest",
-    "max_depth": 58,
-    "n_estimators": 52
+    "model": "GradientBoosting",
+    "max_depth": 5,
+    "n_estimators": 196
 }
