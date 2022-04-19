@@ -1,0 +1,24 @@
+base:
+  project: Compressive-strength
+  random_state: 37
+  target_col: Concrete compressive strength(MPa, megapascals) 
+
+
+data_source:
+  raw_data: data/raw/Concrete_Data.xls
+
+
+split_data:
+  train_path: data/processed/train_data.csv
+  test_path: data/processed/test_data.csv
+  test_size: 0.2
+
+estimators:
+  RandomForestRegressor:
+    params:
+      max_depth: 4
+      n_estimators: 200
+      learning_rate: 0.1
+
+model_dir: saved_models
+
