@@ -608,3 +608,75 @@ INFO: 2022-04-21 05:42:08,518: In read_params
 INFO: 2022-04-21 05:42:08,518: Trying to read params.yaml
 INFO: 2022-04-21 05:42:08,527: Parameters read
 INFO: 2022-04-21 05:42:08,528: Returning configs
+INFO: 2022-04-21 09:42:48,893: In read_params
+INFO: 2022-04-21 09:42:48,893: Trying to read params.yaml
+INFO: 2022-04-21 09:42:48,912: Parameters read
+INFO: 2022-04-21 09:42:48,912: Returning configs
+INFO: 2022-04-21 09:42:48,918: In read_params
+INFO: 2022-04-21 09:42:48,919: Trying to read params.yaml
+INFO: 2022-04-21 09:42:48,931: Parameters read
+INFO: 2022-04-21 09:42:48,931: Returning configs
+INFO: 2022-04-21 10:13:03,203: In read_params
+INFO: 2022-04-21 10:13:03,203: Trying to read params.yaml
+INFO: 2022-04-21 10:13:03,215: Parameters read
+INFO: 2022-04-21 10:13:03,216: Returning configs
+INFO: 2022-04-21 10:13:03,223: In read_params
+INFO: 2022-04-21 10:13:03,228: Trying to read params.yaml
+INFO: 2022-04-21 10:13:03,238: Parameters read
+INFO: 2022-04-21 10:13:03,239: Returning configs
+INFO: 2022-04-21 10:13:48,237: In read_params
+INFO: 2022-04-21 10:13:48,238: Trying to read params.yaml
+INFO: 2022-04-21 10:13:48,245: Parameters read
+INFO: 2022-04-21 10:13:48,246: Returning configs
+INFO: 2022-04-21 10:13:48,253: In read_params
+INFO: 2022-04-21 10:13:48,253: Trying to read params.yaml
+INFO: 2022-04-21 10:13:48,261: Parameters read
+INFO: 2022-04-21 10:13:48,261: Returning configs
+INFO: 2022-04-21 10:20:04,414: In read_params
+INFO: 2022-04-21 10:20:04,415: Trying to read params.yaml
+INFO: 2022-04-21 10:20:04,423: Parameters read
+INFO: 2022-04-21 10:20:04,423: Returning configs
+INFO: 2022-04-21 10:20:04,435: In read_params
+INFO: 2022-04-21 10:20:04,435: Trying to read params.yaml
+INFO: 2022-04-21 10:20:04,444: Parameters read
+INFO: 2022-04-21 10:20:04,445: Returning configs
+INFO: 2022-04-21 10:23:23,591: In read_params
+INFO: 2022-04-21 10:23:23,591: Trying to read params.yaml
+INFO: 2022-04-21 10:23:23,604: Parameters read
+INFO: 2022-04-21 10:23:23,612: Returning configs
+INFO: 2022-04-21 10:23:23,629: In read_params
+INFO: 2022-04-21 10:23:23,630: Trying to read params.yaml
+INFO: 2022-04-21 10:23:23,638: Parameters read
+INFO: 2022-04-21 10:23:23,639: Returning configs
+INFO: 2022-04-21 10:33:10,110: In read_params
+INFO: 2022-04-21 10:33:10,110: Trying to read params.yaml
+INFO: 2022-04-21 10:33:10,134: Parameters read
+INFO: 2022-04-21 10:33:10,139: Returning configs
+INFO: 2022-04-21 10:33:10,154: In read_params
+INFO: 2022-04-21 10:33:10,155: Trying to read params.yaml
+INFO: 2022-04-21 10:33:10,163: Parameters read
+INFO: 2022-04-21 10:33:10,163: Returning configs
+INFO: 2022-04-21 10:36:09,989: In read_params
+INFO: 2022-04-21 10:36:09,989: Trying to read params.yaml
+INFO: 2022-04-21 10:36:10,004: Parameters read
+INFO: 2022-04-21 10:36:10,005: Returning configs
+INFO: 2022-04-21 10:36:10,015: In read_params
+INFO: 2022-04-21 10:36:10,015: Trying to read params.yaml
+INFO: 2022-04-21 10:36:10,026: Parameters read
+INFO: 2022-04-21 10:36:10,028: Returning configs
+INFO: 2022-04-21 10:39:51,221: In read_params
+INFO: 2022-04-21 10:39:51,221: Trying to read params.yaml
+INFO: 2022-04-21 10:39:51,241: Parameters read
+INFO: 2022-04-21 10:39:51,241: Returning configs
+INFO: 2022-04-21 10:39:51,251: In read_params
+INFO: 2022-04-21 10:39:51,251: Trying to read params.yaml
+INFO: 2022-04-21 10:39:51,260: Parameters read
+INFO: 2022-04-21 10:39:51,260: Returning configs
+INFO: 2022-04-21 10:45:53,742: In read_params
+INFO: 2022-04-21 10:45:53,742: Trying to read params.yaml
+INFO: 2022-04-21 10:45:53,756: Parameters read
+INFO: 2022-04-21 10:45:53,757: Returning configs
+INFO: 2022-04-21 10:45:53,782: In read_params
+INFO: 2022-04-21 10:45:53,783: Trying to read params.yaml
+INFO: 2022-04-21 10:45:53,809: Parameters read
+INFO: 2022-04-21 10:45:53,813: Returning configs

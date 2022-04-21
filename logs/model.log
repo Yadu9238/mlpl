@@ -1176,3 +1176,866 @@ INFO: 2022-04-21 05:42:19,649: Trial number: 4
 INFO: 2022-04-21 05:42:19,649: Model: GradientBoostingRegressor
 INFO: 2022-04-21 05:42:19,650: Max_depth: 5
 INFO: 2022-04-21 05:42:19,650: n_estimators: 181
+INFO: 2022-04-21 09:42:48,957: In build_model
+INFO: 2022-04-21 10:13:03,251: In build_model
+INFO: 2022-04-21 10:13:03,877: Trial number: 0
+INFO: 2022-04-21 10:13:03,884: Model: LinearRegression
+INFO: 2022-04-21 10:13:03,891: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:13:03,892: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:13:03,892: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:13:03,893: ################################
+INFO: 2022-04-21 10:13:48,288: In build_model
+INFO: 2022-04-21 10:13:48,802: Trial number: 0
+INFO: 2022-04-21 10:13:48,802: Model: LinearRegression
+INFO: 2022-04-21 10:13:48,818: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:13:48,819: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:13:48,820: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:13:48,820: ################################
+INFO: 2022-04-21 10:13:49,000: Trial number: 1
+INFO: 2022-04-21 10:13:49,001: Model: LinearRegression
+INFO: 2022-04-21 10:13:49,007: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:13:49,007: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:13:49,008: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:13:49,008: ################################
+INFO: 2022-04-21 10:13:49,248: Trial number: 2
+INFO: 2022-04-21 10:13:49,249: Model: RandomForestRegressor
+INFO: 2022-04-21 10:13:49,250: Max_depth: 8
+INFO: 2022-04-21 10:13:49,251: n_estimators: 53
+INFO: 2022-04-21 10:13:49,538: Root mean square error: 5.470300449877234
+INFO: 2022-04-21 10:13:49,538: Mean absolute error: 4.029588069945147
+INFO: 2022-04-21 10:13:49,538: R2 score: 0.8913140884816574
+INFO: 2022-04-21 10:13:49,538: ################################
+INFO: 2022-04-21 10:13:49,908: Trial number: 3
+INFO: 2022-04-21 10:13:49,908: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:13:49,908: Max_depth: 3
+INFO: 2022-04-21 10:13:49,913: n_estimators: 146
+INFO: 2022-04-21 10:13:50,312: Root mean square error: 4.714203529497818
+INFO: 2022-04-21 10:13:50,315: Mean absolute error: 3.404494870504764
+INFO: 2022-04-21 10:13:50,319: R2 score: 0.9192825284719421
+INFO: 2022-04-21 10:13:50,321: ################################
+INFO: 2022-04-21 10:13:50,629: Trial number: 4
+INFO: 2022-04-21 10:13:50,629: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:13:50,647: Max_depth: 3
+INFO: 2022-04-21 10:13:50,647: n_estimators: 144
+INFO: 2022-04-21 10:13:51,027: Root mean square error: 4.729018330436301
+INFO: 2022-04-21 10:13:51,027: Mean absolute error: 3.410189147083797
+INFO: 2022-04-21 10:13:51,031: R2 score: 0.9187744077512892
+INFO: 2022-04-21 10:13:51,032: ################################
+INFO: 2022-04-21 10:13:51,358: Trial number: 5
+INFO: 2022-04-21 10:13:51,359: Model: LinearRegression
+INFO: 2022-04-21 10:13:51,366: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:13:51,367: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:13:51,367: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:13:51,368: ################################
+INFO: 2022-04-21 10:13:51,627: Trial number: 6
+INFO: 2022-04-21 10:13:51,629: Model: RandomForestRegressor
+INFO: 2022-04-21 10:13:51,630: Max_depth: 5
+INFO: 2022-04-21 10:13:51,631: n_estimators: 55
+INFO: 2022-04-21 10:13:51,909: Root mean square error: 7.1537728649838614
+INFO: 2022-04-21 10:13:51,918: Mean absolute error: 5.625304212306617
+INFO: 2022-04-21 10:13:51,976: R2 score: 0.8141249125522282
+INFO: 2022-04-21 10:13:51,978: ################################
+INFO: 2022-04-21 10:13:52,286: Trial number: 7
+INFO: 2022-04-21 10:13:52,286: Model: RandomForestRegressor
+INFO: 2022-04-21 10:13:52,286: Max_depth: 3
+INFO: 2022-04-21 10:13:52,300: n_estimators: 191
+INFO: 2022-04-21 10:13:53,115: Root mean square error: 9.336579521706447
+INFO: 2022-04-21 10:13:53,115: Mean absolute error: 7.534421289213622
+INFO: 2022-04-21 10:13:53,115: R2 score: 0.6833886402682539
+INFO: 2022-04-21 10:13:53,123: ################################
+INFO: 2022-04-21 10:13:53,482: Trial number: 8
+INFO: 2022-04-21 10:13:53,482: Model: LinearRegression
+INFO: 2022-04-21 10:13:53,498: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:13:53,498: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:13:53,499: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:13:53,500: ################################
+INFO: 2022-04-21 10:13:53,786: Trial number: 9
+INFO: 2022-04-21 10:13:53,786: Model: LinearRegression
+INFO: 2022-04-21 10:13:53,799: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:13:53,800: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:13:53,801: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:13:53,801: ################################
+INFO: 2022-04-21 10:13:54,176: Trial number: 10
+INFO: 2022-04-21 10:13:54,176: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:13:54,191: Max_depth: 5
+INFO: 2022-04-21 10:13:54,191: n_estimators: 131
+INFO: 2022-04-21 10:13:54,613: Root mean square error: 4.411477623586604
+INFO: 2022-04-21 10:13:54,613: Mean absolute error: 2.9222415518879874
+INFO: 2022-04-21 10:13:54,624: R2 score: 0.9293163360922682
+INFO: 2022-04-21 10:13:54,624: ################################
+INFO: 2022-04-21 10:13:54,997: Trial number: 11
+INFO: 2022-04-21 10:13:54,998: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:13:55,009: Max_depth: 5
+INFO: 2022-04-21 10:13:55,010: n_estimators: 126
+INFO: 2022-04-21 10:13:55,428: Root mean square error: 4.386064403439457
+INFO: 2022-04-21 10:13:55,441: Mean absolute error: 2.9234815134323853
+INFO: 2022-04-21 10:13:55,476: R2 score: 0.9301283658423652
+INFO: 2022-04-21 10:13:55,498: ################################
+INFO: 2022-04-21 10:13:55,784: Trial number: 12
+INFO: 2022-04-21 10:13:55,784: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:13:55,832: Max_depth: 6
+INFO: 2022-04-21 10:13:55,838: n_estimators: 106
+INFO: 2022-04-21 10:13:56,275: Root mean square error: 4.718959231055626
+INFO: 2022-04-21 10:13:56,284: Mean absolute error: 3.0012346268702697
+INFO: 2022-04-21 10:13:56,285: R2 score: 0.9191195903101345
+INFO: 2022-04-21 10:13:56,287: ################################
+INFO: 2022-04-21 10:13:56,585: Trial number: 13
+INFO: 2022-04-21 10:13:56,586: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:13:56,597: Max_depth: 5
+INFO: 2022-04-21 10:13:56,597: n_estimators: 105
+INFO: 2022-04-21 10:13:57,002: Root mean square error: 4.524737158910935
+INFO: 2022-04-21 10:13:57,002: Mean absolute error: 3.060661426122757
+INFO: 2022-04-21 10:13:57,007: R2 score: 0.9256403042399056
+INFO: 2022-04-21 10:13:57,008: ################################
+INFO: 2022-04-21 10:13:57,364: Trial number: 14
+INFO: 2022-04-21 10:13:57,377: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:13:57,387: Max_depth: 6
+INFO: 2022-04-21 10:13:57,388: n_estimators: 130
+INFO: 2022-04-21 10:13:57,877: Root mean square error: 4.735569797591768
+INFO: 2022-04-21 10:13:57,881: Mean absolute error: 2.96719876647933
+INFO: 2022-04-21 10:13:57,913: R2 score: 0.918549195931745
+INFO: 2022-04-21 10:13:58,009: ################################
+INFO: 2022-04-21 10:13:58,349: Trial number: 15
+INFO: 2022-04-21 10:13:58,349: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:13:58,363: Max_depth: 5
+INFO: 2022-04-21 10:13:58,364: n_estimators: 172
+INFO: 2022-04-21 10:13:58,971: Root mean square error: 4.2831997803231365
+INFO: 2022-04-21 10:13:58,971: Mean absolute error: 2.7890335151675423
+INFO: 2022-04-21 10:13:58,971: R2 score: 0.9333672779927006
+INFO: 2022-04-21 10:13:58,971: ################################
+INFO: 2022-04-21 10:13:59,252: Trial number: 16
+INFO: 2022-04-21 10:13:59,253: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:13:59,262: Max_depth: 7
+INFO: 2022-04-21 10:13:59,263: n_estimators: 186
+INFO: 2022-04-21 10:13:59,971: Root mean square error: 4.720258347280856
+INFO: 2022-04-21 10:13:59,971: Mean absolute error: 3.0420404010813016
+INFO: 2022-04-21 10:13:59,975: R2 score: 0.9190750518809834
+INFO: 2022-04-21 10:13:59,975: ################################
+INFO: 2022-04-21 10:14:00,332: Trial number: 17
+INFO: 2022-04-21 10:14:00,333: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:14:00,343: Max_depth: 4
+INFO: 2022-04-21 10:14:00,344: n_estimators: 169
+INFO: 2022-04-21 10:14:00,859: Root mean square error: 4.371555680788756
+INFO: 2022-04-21 10:14:00,861: Mean absolute error: 3.0659438832213457
+INFO: 2022-04-21 10:14:00,862: R2 score: 0.9305898599620692
+INFO: 2022-04-21 10:14:00,864: ################################
+INFO: 2022-04-21 10:14:01,183: Trial number: 18
+INFO: 2022-04-21 10:14:01,184: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:14:01,193: Max_depth: 4
+INFO: 2022-04-21 10:14:01,194: n_estimators: 170
+INFO: 2022-04-21 10:14:01,646: Root mean square error: 4.385556937367885
+INFO: 2022-04-21 10:14:01,646: Mean absolute error: 3.0749273654320906
+INFO: 2022-04-21 10:14:01,646: R2 score: 0.9301445331528423
+INFO: 2022-04-21 10:14:01,657: ################################
+INFO: 2022-04-21 10:14:01,941: Trial number: 19
+INFO: 2022-04-21 10:14:01,941: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:14:01,951: Max_depth: 4
+INFO: 2022-04-21 10:14:01,951: n_estimators: 165
+INFO: 2022-04-21 10:14:02,366: Root mean square error: 4.386759632814073
+INFO: 2022-04-21 10:14:02,376: Mean absolute error: 3.084094679560306
+INFO: 2022-04-21 10:14:02,403: R2 score: 0.9301062135627934
+INFO: 2022-04-21 10:14:02,405: ################################
+INFO: 2022-04-21 10:14:02,607: Trial number: 15
+INFO: 2022-04-21 10:14:02,607: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:14:02,608: Max_depth: 5
+INFO: 2022-04-21 10:14:02,608: n_estimators: 172
+INFO: 2022-04-21 10:20:04,468: In build_model
+INFO: 2022-04-21 10:20:04,983: Trial number: 0
+INFO: 2022-04-21 10:20:04,983: Model: RandomForestRegressor
+INFO: 2022-04-21 10:20:04,984: Max_depth: 5
+INFO: 2022-04-21 10:20:04,985: n_estimators: 111
+INFO: 2022-04-21 10:20:05,315: Root mean square error: 6.947382021858116
+INFO: 2022-04-21 10:20:05,315: Mean absolute error: 5.503749648056499
+INFO: 2022-04-21 10:20:05,315: R2 score: 0.8246954239759001
+INFO: 2022-04-21 10:20:05,315: ################################
+INFO: 2022-04-21 10:20:10,322: Trial number: 1
+INFO: 2022-04-21 10:20:10,338: Model: LinearRegression
+INFO: 2022-04-21 10:20:10,347: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:20:10,349: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:20:10,366: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:20:10,476: ################################
+INFO: 2022-04-21 10:23:23,681: In build_model
+INFO: 2022-04-21 10:23:25,471: Trial number: 0
+INFO: 2022-04-21 10:23:25,471: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:23:25,471: Max_depth: 6
+INFO: 2022-04-21 10:23:25,478: n_estimators: 133
+INFO: 2022-04-21 10:23:30,631: Root mean square error: 4.688283669711245
+INFO: 2022-04-21 10:23:30,631: Mean absolute error: 2.991972695592734
+INFO: 2022-04-21 10:23:30,631: R2 score: 0.9201676976649402
+INFO: 2022-04-21 10:23:30,631: ################################
+INFO: 2022-04-21 10:23:31,036: Trial number: 1
+INFO: 2022-04-21 10:23:31,036: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:23:31,039: Max_depth: 4
+INFO: 2022-04-21 10:23:31,040: n_estimators: 151
+INFO: 2022-04-21 10:23:35,264: Root mean square error: 4.40162502688266
+INFO: 2022-04-21 10:23:35,264: Mean absolute error: 3.1022117184222546
+INFO: 2022-04-21 10:23:35,264: R2 score: 0.9296317133892288
+INFO: 2022-04-21 10:23:35,271: ################################
+INFO: 2022-04-21 10:23:35,690: Trial number: 2
+INFO: 2022-04-21 10:23:35,690: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:23:35,693: Max_depth: 3
+INFO: 2022-04-21 10:23:35,694: n_estimators: 65
+INFO: 2022-04-21 10:23:39,569: Root mean square error: 5.502303315198144
+INFO: 2022-04-21 10:23:39,569: Mean absolute error: 4.157650040585291
+INFO: 2022-04-21 10:23:39,569: R2 score: 0.890038679555253
+INFO: 2022-04-21 10:23:39,569: ################################
+INFO: 2022-04-21 10:23:40,130: Trial number: 3
+INFO: 2022-04-21 10:23:40,130: Model: RandomForestRegressor
+INFO: 2022-04-21 10:23:40,142: Max_depth: 6
+INFO: 2022-04-21 10:23:40,143: n_estimators: 81
+INFO: 2022-04-21 10:23:44,398: Root mean square error: 6.392920985783828
+INFO: 2022-04-21 10:23:44,398: Mean absolute error: 4.897223663627152
+INFO: 2022-04-21 10:23:44,398: R2 score: 0.851560471805155
+INFO: 2022-04-21 10:23:44,403: ################################
+INFO: 2022-04-21 10:23:44,877: Trial number: 4
+INFO: 2022-04-21 10:23:44,881: Model: LinearRegression
+INFO: 2022-04-21 10:23:48,759: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:23:48,759: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:23:48,759: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:23:48,759: ################################
+INFO: 2022-04-21 10:23:49,252: Trial number: 5
+INFO: 2022-04-21 10:23:49,252: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:23:49,254: Max_depth: 3
+INFO: 2022-04-21 10:23:49,254: n_estimators: 163
+INFO: 2022-04-21 10:23:53,486: Root mean square error: 4.6088194339684465
+INFO: 2022-04-21 10:23:53,486: Mean absolute error: 3.3153907870580817
+INFO: 2022-04-21 10:23:53,486: R2 score: 0.9228510039626435
+INFO: 2022-04-21 10:23:53,486: ################################
+INFO: 2022-04-21 10:23:53,928: Trial number: 6
+INFO: 2022-04-21 10:23:53,928: Model: RandomForestRegressor
+INFO: 2022-04-21 10:23:53,936: Max_depth: 3
+INFO: 2022-04-21 10:23:53,937: n_estimators: 126
+INFO: 2022-04-21 10:23:58,438: Root mean square error: 9.238656558902338
+INFO: 2022-04-21 10:23:58,439: Mean absolute error: 7.47349084472973
+INFO: 2022-04-21 10:23:58,439: R2 score: 0.6899951150135364
+INFO: 2022-04-21 10:23:58,441: ################################
+INFO: 2022-04-21 10:23:58,877: Trial number: 7
+INFO: 2022-04-21 10:23:58,878: Model: LinearRegression
+INFO: 2022-04-21 10:33:10,185: In build_model
+INFO: 2022-04-21 10:33:10,647: Trial number: 0
+INFO: 2022-04-21 10:33:10,647: Model: RandomForestRegressor
+INFO: 2022-04-21 10:33:10,647: Max_depth: 5
+INFO: 2022-04-21 10:33:10,651: n_estimators: 176
+INFO: 2022-04-21 10:33:11,185: Root mean square error: 7.074203928871588
+INFO: 2022-04-21 10:33:11,187: Mean absolute error: 5.6062534057220725
+INFO: 2022-04-21 10:33:11,188: R2 score: 0.8182367656581515
+INFO: 2022-04-21 10:33:11,189: ################################
+INFO: 2022-04-21 10:33:16,506: Trial number: 1
+INFO: 2022-04-21 10:33:16,507: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:33:16,508: Max_depth: 6
+INFO: 2022-04-21 10:33:16,509: n_estimators: 79
+INFO: 2022-04-21 10:33:16,869: Root mean square error: 4.879704457198613
+INFO: 2022-04-21 10:33:16,870: Mean absolute error: 3.16164045409515
+INFO: 2022-04-21 10:33:16,871: R2 score: 0.9135155693467016
+INFO: 2022-04-21 10:33:16,872: ################################
+INFO: 2022-04-21 10:33:21,709: Trial number: 2
+INFO: 2022-04-21 10:33:21,709: Model: RandomForestRegressor
+INFO: 2022-04-21 10:33:21,709: Max_depth: 4
+INFO: 2022-04-21 10:33:21,716: n_estimators: 107
+INFO: 2022-04-21 10:33:22,098: Root mean square error: 8.073025923690611
+INFO: 2022-04-21 10:33:22,098: Mean absolute error: 6.478333962001091
+INFO: 2022-04-21 10:33:22,098: R2 score: 0.76328619526741
+INFO: 2022-04-21 10:33:22,108: ################################
+INFO: 2022-04-21 10:33:26,023: Trial number: 3
+INFO: 2022-04-21 10:33:26,035: Model: RandomForestRegressor
+INFO: 2022-04-21 10:33:26,035: Max_depth: 3
+INFO: 2022-04-21 10:33:26,086: n_estimators: 141
+INFO: 2022-04-21 10:33:26,502: Root mean square error: 9.230672910952455
+INFO: 2022-04-21 10:33:26,506: Mean absolute error: 7.464658591393622
+INFO: 2022-04-21 10:33:26,508: R2 score: 0.6905306691750481
+INFO: 2022-04-21 10:33:26,508: ################################
+INFO: 2022-04-21 10:33:30,355: Trial number: 4
+INFO: 2022-04-21 10:33:30,371: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:33:30,372: Max_depth: 7
+INFO: 2022-04-21 10:33:30,372: n_estimators: 173
+INFO: 2022-04-21 10:33:31,072: Root mean square error: 4.816940528796914
+INFO: 2022-04-21 10:33:31,072: Mean absolute error: 3.080722115559367
+INFO: 2022-04-21 10:33:31,072: R2 score: 0.9157260285588206
+INFO: 2022-04-21 10:33:31,076: ################################
+INFO: 2022-04-21 10:33:35,247: Trial number: 5
+INFO: 2022-04-21 10:33:35,249: Model: RandomForestRegressor
+INFO: 2022-04-21 10:33:35,250: Max_depth: 4
+INFO: 2022-04-21 10:33:35,251: n_estimators: 138
+INFO: 2022-04-21 10:33:35,765: Root mean square error: 8.066579915866322
+INFO: 2022-04-21 10:33:35,767: Mean absolute error: 6.472084645907746
+INFO: 2022-04-21 10:33:35,801: R2 score: 0.7636640585076101
+INFO: 2022-04-21 10:33:35,804: ################################
+INFO: 2022-04-21 10:33:39,862: Trial number: 6
+INFO: 2022-04-21 10:33:39,862: Model: RandomForestRegressor
+INFO: 2022-04-21 10:33:39,868: Max_depth: 3
+INFO: 2022-04-21 10:33:39,868: n_estimators: 176
+INFO: 2022-04-21 10:33:40,440: Root mean square error: 9.240523215829835
+INFO: 2022-04-21 10:33:40,440: Mean absolute error: 7.452478661782222
+INFO: 2022-04-21 10:33:40,440: R2 score: 0.6898698302987261
+INFO: 2022-04-21 10:33:40,442: ################################
+INFO: 2022-04-21 10:33:44,568: Trial number: 7
+INFO: 2022-04-21 10:33:44,569: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:33:44,570: Max_depth: 4
+INFO: 2022-04-21 10:33:44,570: n_estimators: 54
+INFO: 2022-04-21 10:33:44,787: Root mean square error: 5.2495079107760585
+INFO: 2022-04-21 10:33:44,788: Mean absolute error: 3.8810536453478273
+INFO: 2022-04-21 10:33:44,788: R2 score: 0.8999106011432296
+INFO: 2022-04-21 10:33:44,789: ################################
+INFO: 2022-04-21 10:33:48,997: Trial number: 8
+INFO: 2022-04-21 10:33:48,998: Model: RandomForestRegressor
+INFO: 2022-04-21 10:33:49,000: Max_depth: 4
+INFO: 2022-04-21 10:33:49,001: n_estimators: 139
+INFO: 2022-04-21 10:33:49,498: Root mean square error: 8.048648237940693
+INFO: 2022-04-21 10:33:49,501: Mean absolute error: 6.413697345497675
+INFO: 2022-04-21 10:33:49,506: R2 score: 0.764713620946684
+INFO: 2022-04-21 10:33:49,532: ################################
+INFO: 2022-04-21 10:33:53,764: Trial number: 9
+INFO: 2022-04-21 10:33:53,765: Model: LinearRegression
+INFO: 2022-04-21 10:33:53,771: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:33:53,772: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:33:53,773: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:33:53,773: ################################
+INFO: 2022-04-21 10:33:57,733: Trial number: 10
+INFO: 2022-04-21 10:33:57,733: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:33:57,767: Max_depth: 8
+INFO: 2022-04-21 10:33:57,771: n_estimators: 198
+INFO: 2022-04-21 10:33:58,675: Root mean square error: 5.034542831685451
+INFO: 2022-04-21 10:33:58,675: Mean absolute error: 3.170665002731192
+INFO: 2022-04-21 10:33:58,675: R2 score: 0.9079399997347775
+INFO: 2022-04-21 10:33:58,688: ################################
+INFO: 2022-04-21 10:34:02,812: Trial number: 11
+INFO: 2022-04-21 10:34:02,812: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:34:02,823: Max_depth: 7
+INFO: 2022-04-21 10:34:02,824: n_estimators: 76
+INFO: 2022-04-21 10:34:03,190: Root mean square error: 4.806153120438768
+INFO: 2022-04-21 10:34:03,190: Mean absolute error: 3.128953016229155
+INFO: 2022-04-21 10:34:03,190: R2 score: 0.9161030644755126
+INFO: 2022-04-21 10:34:03,190: ################################
+INFO: 2022-04-21 10:34:07,408: Trial number: 12
+INFO: 2022-04-21 10:34:07,414: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:34:07,451: Max_depth: 7
+INFO: 2022-04-21 10:34:07,452: n_estimators: 106
+INFO: 2022-04-21 10:34:07,948: Root mean square error: 4.794952954912856
+INFO: 2022-04-21 10:34:07,948: Mean absolute error: 3.102879501025447
+INFO: 2022-04-21 10:34:07,957: R2 score: 0.9164936324242677
+INFO: 2022-04-21 10:34:07,957: ################################
+INFO: 2022-04-21 10:34:12,060: Trial number: 13
+INFO: 2022-04-21 10:34:12,066: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:34:12,095: Max_depth: 8
+INFO: 2022-04-21 10:34:12,136: n_estimators: 93
+INFO: 2022-04-21 10:34:12,676: Root mean square error: 5.034022891047739
+INFO: 2022-04-21 10:34:12,676: Mean absolute error: 3.210999234452819
+INFO: 2022-04-21 10:34:12,676: R2 score: 0.9079590136811029
+INFO: 2022-04-21 10:34:12,676: ################################
+INFO: 2022-04-21 10:34:16,732: Trial number: 14
+INFO: 2022-04-21 10:34:16,732: Model: LinearRegression
+INFO: 2022-04-21 10:34:16,750: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:34:16,751: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:34:16,752: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:34:16,753: ################################
+INFO: 2022-04-21 10:34:20,503: Trial number: 15
+INFO: 2022-04-21 10:34:20,506: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:34:20,517: Max_depth: 7
+INFO: 2022-04-21 10:34:20,518: n_estimators: 60
+INFO: 2022-04-21 10:34:20,877: Root mean square error: 4.91938589841636
+INFO: 2022-04-21 10:34:20,889: Mean absolute error: 3.2120535996775286
+INFO: 2022-04-21 10:34:20,891: R2 score: 0.912103278672747
+INFO: 2022-04-21 10:34:20,891: ################################
+INFO: 2022-04-21 10:34:24,924: Trial number: 16
+INFO: 2022-04-21 10:34:24,924: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:34:24,966: Max_depth: 7
+INFO: 2022-04-21 10:34:24,968: n_estimators: 113
+INFO: 2022-04-21 10:34:25,533: Root mean square error: 4.757103139557237
+INFO: 2022-04-21 10:34:25,533: Mean absolute error: 3.0512353106568653
+INFO: 2022-04-21 10:34:25,533: R2 score: 0.9178067739073061
+INFO: 2022-04-21 10:34:25,541: ################################
+INFO: 2022-04-21 10:34:29,516: Trial number: 17
+INFO: 2022-04-21 10:34:29,516: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:34:29,551: Max_depth: 6
+INFO: 2022-04-21 10:34:29,553: n_estimators: 112
+INFO: 2022-04-21 10:34:29,958: Root mean square error: 4.727431617797005
+INFO: 2022-04-21 10:34:29,958: Mean absolute error: 3.0109453983632566
+INFO: 2022-04-21 10:34:29,958: R2 score: 0.9188289053417911
+INFO: 2022-04-21 10:34:29,977: ################################
+INFO: 2022-04-21 10:34:33,992: Trial number: 18
+INFO: 2022-04-21 10:34:34,004: Model: LinearRegression
+INFO: 2022-04-21 10:34:34,130: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:34:34,253: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:34:34,255: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:34:34,256: ################################
+INFO: 2022-04-21 10:34:38,070: Trial number: 19
+INFO: 2022-04-21 10:34:38,070: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:34:38,087: Max_depth: 6
+INFO: 2022-04-21 10:34:38,087: n_estimators: 116
+INFO: 2022-04-21 10:34:38,548: Root mean square error: 4.64454705252246
+INFO: 2022-04-21 10:34:38,565: Mean absolute error: 2.9979011101333257
+INFO: 2022-04-21 10:34:38,573: R2 score: 0.921650248077474
+INFO: 2022-04-21 10:34:38,575: ################################
+INFO: 2022-04-21 10:34:42,693: Trial number: 19
+INFO: 2022-04-21 10:34:42,693: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:34:42,707: Max_depth: 6
+INFO: 2022-04-21 10:34:42,707: n_estimators: 116
+INFO: 2022-04-21 10:36:10,051: In build_model
+INFO: 2022-04-21 10:36:10,498: Trial number: 0
+INFO: 2022-04-21 10:36:10,498: Model: LinearRegression
+INFO: 2022-04-21 10:36:10,511: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:36:10,512: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:36:10,512: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:36:10,513: ################################
+INFO: 2022-04-21 10:36:16,191: Trial number: 1
+INFO: 2022-04-21 10:36:16,191: Model: RandomForestRegressor
+INFO: 2022-04-21 10:36:16,192: Max_depth: 3
+INFO: 2022-04-21 10:36:16,193: n_estimators: 173
+INFO: 2022-04-21 10:36:16,695: Root mean square error: 9.302320300972811
+INFO: 2022-04-21 10:36:16,695: Mean absolute error: 7.502630201488487
+INFO: 2022-04-21 10:36:16,695: R2 score: 0.6857078960406333
+INFO: 2022-04-21 10:36:16,695: ################################
+INFO: 2022-04-21 10:36:20,954: Trial number: 2
+INFO: 2022-04-21 10:36:20,955: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:36:20,956: Max_depth: 5
+INFO: 2022-04-21 10:36:20,956: n_estimators: 150
+INFO: 2022-04-21 10:36:21,422: Root mean square error: 4.425298633511427
+INFO: 2022-04-21 10:36:21,438: Mean absolute error: 2.872406480168943
+INFO: 2022-04-21 10:36:21,438: R2 score: 0.9288727432501803
+INFO: 2022-04-21 10:36:21,438: ################################
+INFO: 2022-04-21 10:36:25,930: Trial number: 3
+INFO: 2022-04-21 10:36:25,931: Model: RandomForestRegressor
+INFO: 2022-04-21 10:36:25,932: Max_depth: 8
+INFO: 2022-04-21 10:36:25,932: n_estimators: 190
+INFO: 2022-04-21 10:36:26,760: Root mean square error: 5.451931686921764
+INFO: 2022-04-21 10:36:26,760: Mean absolute error: 3.9809915632837436
+INFO: 2022-04-21 10:36:26,774: R2 score: 0.8920427774657602
+INFO: 2022-04-21 10:36:26,774: ################################
+INFO: 2022-04-21 10:36:30,820: Trial number: 4
+INFO: 2022-04-21 10:36:30,820: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:36:30,823: Max_depth: 7
+INFO: 2022-04-21 10:36:30,823: n_estimators: 103
+INFO: 2022-04-21 10:36:31,324: Root mean square error: 4.855211570089352
+INFO: 2022-04-21 10:36:31,373: Mean absolute error: 3.138119960276754
+INFO: 2022-04-21 10:36:31,406: R2 score: 0.9143815796963491
+INFO: 2022-04-21 10:36:31,444: ################################
+INFO: 2022-04-21 10:36:35,849: Trial number: 5
+INFO: 2022-04-21 10:36:35,850: Model: RandomForestRegressor
+INFO: 2022-04-21 10:36:35,851: Max_depth: 8
+INFO: 2022-04-21 10:36:35,852: n_estimators: 183
+INFO: 2022-04-21 10:36:36,743: Root mean square error: 5.504571545791445
+INFO: 2022-04-21 10:36:36,752: Mean absolute error: 4.0254706771308975
+INFO: 2022-04-21 10:36:36,752: R2 score: 0.8899480015152026
+INFO: 2022-04-21 10:36:36,754: ################################
+INFO: 2022-04-21 10:36:41,057: Trial number: 6
+INFO: 2022-04-21 10:36:41,057: Model: RandomForestRegressor
+INFO: 2022-04-21 10:36:41,064: Max_depth: 7
+INFO: 2022-04-21 10:36:41,065: n_estimators: 132
+INFO: 2022-04-21 10:36:41,706: Root mean square error: 5.928835693358974
+INFO: 2022-04-21 10:36:41,706: Mean absolute error: 4.426772893946776
+INFO: 2022-04-21 10:36:41,722: R2 score: 0.872329746263665
+INFO: 2022-04-21 10:36:41,723: ################################
+INFO: 2022-04-21 10:36:46,036: Trial number: 7
+INFO: 2022-04-21 10:36:46,052: Model: LinearRegression
+INFO: 2022-04-21 10:36:46,080: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:36:46,083: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:36:46,113: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:36:46,115: ################################
+INFO: 2022-04-21 10:36:50,111: Trial number: 8
+INFO: 2022-04-21 10:36:50,112: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:36:50,113: Max_depth: 8
+INFO: 2022-04-21 10:36:50,114: n_estimators: 178
+INFO: 2022-04-21 10:36:50,994: Root mean square error: 4.931352880083874
+INFO: 2022-04-21 10:36:50,995: Mean absolute error: 3.1628691089414454
+INFO: 2022-04-21 10:36:50,996: R2 score: 0.9116751204193101
+INFO: 2022-04-21 10:36:50,997: ################################
+INFO: 2022-04-21 10:36:55,678: Trial number: 9
+INFO: 2022-04-21 10:36:55,678: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:36:55,678: Max_depth: 3
+INFO: 2022-04-21 10:36:55,685: n_estimators: 111
+INFO: 2022-04-21 10:36:56,015: Root mean square error: 4.953891665979707
+INFO: 2022-04-21 10:36:56,016: Mean absolute error: 3.616938840761313
+INFO: 2022-04-21 10:36:56,017: R2 score: 0.9108658962835969
+INFO: 2022-04-21 10:36:56,018: ################################
+INFO: 2022-04-21 10:37:00,483: Trial number: 10
+INFO: 2022-04-21 10:37:00,483: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:37:00,525: Max_depth: 5
+INFO: 2022-04-21 10:37:00,527: n_estimators: 66
+INFO: 2022-04-21 10:37:00,914: Root mean square error: 4.679445686610296
+INFO: 2022-04-21 10:37:00,919: Mean absolute error: 3.290537929006633
+INFO: 2022-04-21 10:37:00,922: R2 score: 0.9204684011030424
+INFO: 2022-04-21 10:37:00,923: ################################
+INFO: 2022-04-21 10:37:05,130: Trial number: 11
+INFO: 2022-04-21 10:37:05,130: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:37:05,177: Max_depth: 5
+INFO: 2022-04-21 10:37:05,203: n_estimators: 64
+INFO: 2022-04-21 10:37:05,496: Root mean square error: 4.794354710253682
+INFO: 2022-04-21 10:37:05,497: Mean absolute error: 3.34749334482675
+INFO: 2022-04-21 10:37:05,498: R2 score: 0.9165144685502565
+INFO: 2022-04-21 10:37:05,498: ################################
+INFO: 2022-04-21 10:37:09,596: Trial number: 12
+INFO: 2022-04-21 10:37:09,596: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:37:09,641: Max_depth: 5
+INFO: 2022-04-21 10:37:09,642: n_estimators: 57
+INFO: 2022-04-21 10:37:09,988: Root mean square error: 4.846277177901154
+INFO: 2022-04-21 10:37:09,995: Mean absolute error: 3.421856809808217
+INFO: 2022-04-21 10:37:10,056: R2 score: 0.9146963938784227
+INFO: 2022-04-21 10:37:10,058: ################################
+INFO: 2022-04-21 10:37:14,145: Trial number: 13
+INFO: 2022-04-21 10:37:14,145: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:37:14,188: Max_depth: 4
+INFO: 2022-04-21 10:37:14,189: n_estimators: 144
+INFO: 2022-04-21 10:37:14,613: Root mean square error: 4.432919796728407
+INFO: 2022-04-21 10:37:14,681: Mean absolute error: 3.1365823840956755
+INFO: 2022-04-21 10:37:14,693: R2 score: 0.9286275443377014
+INFO: 2022-04-21 10:37:14,695: ################################
+INFO: 2022-04-21 10:37:18,750: Trial number: 14
+INFO: 2022-04-21 10:37:18,751: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:37:18,777: Max_depth: 4
+INFO: 2022-04-21 10:37:18,785: n_estimators: 146
+INFO: 2022-04-21 10:37:19,221: Root mean square error: 4.416109279492652
+INFO: 2022-04-21 10:37:19,221: Mean absolute error: 3.1149784362758703
+INFO: 2022-04-21 10:37:19,221: R2 score: 0.9291678351597308
+INFO: 2022-04-21 10:37:19,229: ################################
+INFO: 2022-04-21 10:37:23,284: Trial number: 15
+INFO: 2022-04-21 10:37:23,298: Model: LinearRegression
+INFO: 2022-04-21 10:37:23,305: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:37:23,306: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:37:23,306: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:37:23,311: ################################
+INFO: 2022-04-21 10:37:27,039: Trial number: 16
+INFO: 2022-04-21 10:37:27,039: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:37:27,113: Max_depth: 4
+INFO: 2022-04-21 10:37:27,115: n_estimators: 157
+INFO: 2022-04-21 10:37:27,711: Root mean square error: 4.4011765040578625
+INFO: 2022-04-21 10:37:27,711: Mean absolute error: 3.0962490719017857
+INFO: 2022-04-21 10:37:27,711: R2 score: 0.9296460536269506
+INFO: 2022-04-21 10:37:27,718: ################################
+INFO: 2022-04-21 10:37:31,599: Trial number: 17
+INFO: 2022-04-21 10:37:31,599: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:37:31,642: Max_depth: 3
+INFO: 2022-04-21 10:37:31,643: n_estimators: 159
+INFO: 2022-04-21 10:37:32,252: Root mean square error: 4.6335557811606725
+INFO: 2022-04-21 10:37:32,263: Mean absolute error: 3.341492996323879
+INFO: 2022-04-21 10:37:32,296: R2 score: 0.9220206370121848
+INFO: 2022-04-21 10:37:32,322: ################################
+INFO: 2022-04-21 10:37:36,371: Trial number: 18
+INFO: 2022-04-21 10:37:36,381: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:37:36,438: Max_depth: 4
+INFO: 2022-04-21 10:37:36,505: n_estimators: 118
+INFO: 2022-04-21 10:37:36,945: Root mean square error: 4.514084492805289
+INFO: 2022-04-21 10:37:36,945: Mean absolute error: 3.2210693530590855
+INFO: 2022-04-21 10:37:36,957: R2 score: 0.9259900246861642
+INFO: 2022-04-21 10:37:36,958: ################################
+INFO: 2022-04-21 10:37:41,066: Trial number: 19
+INFO: 2022-04-21 10:37:41,066: Model: LinearRegression
+INFO: 2022-04-21 10:37:41,110: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:37:41,112: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:37:41,112: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:37:41,113: ################################
+INFO: 2022-04-21 10:37:45,155: Trial number: 16
+INFO: 2022-04-21 10:37:45,156: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:37:45,156: Max_depth: 4
+INFO: 2022-04-21 10:37:45,157: n_estimators: 157
+INFO: 2022-04-21 10:39:51,275: In build_model
+INFO: 2022-04-21 10:39:51,757: Trial number: 0
+INFO: 2022-04-21 10:39:51,757: Model: LinearRegression
+INFO: 2022-04-21 10:39:51,770: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:39:51,771: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:39:51,771: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:39:51,772: ################################
+INFO: 2022-04-21 10:39:56,471: Trial number: 1
+INFO: 2022-04-21 10:39:56,482: Model: LinearRegression
+INFO: 2022-04-21 10:39:56,488: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:39:56,489: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:39:56,490: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:39:56,509: ################################
+INFO: 2022-04-21 10:40:00,223: Trial number: 2
+INFO: 2022-04-21 10:40:00,223: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:40:00,232: Max_depth: 6
+INFO: 2022-04-21 10:40:00,233: n_estimators: 129
+INFO: 2022-04-21 10:40:00,940: Root mean square error: 4.657906344867474
+INFO: 2022-04-21 10:40:00,942: Mean absolute error: 2.9603511831940508
+INFO: 2022-04-21 10:40:00,943: R2 score: 0.9211988789526291
+INFO: 2022-04-21 10:40:00,946: ################################
+INFO: 2022-04-21 10:40:04,775: Trial number: 3
+INFO: 2022-04-21 10:40:04,775: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:40:04,787: Max_depth: 6
+INFO: 2022-04-21 10:40:04,791: n_estimators: 146
+INFO: 2022-04-21 10:40:05,488: Root mean square error: 4.606723057535346
+INFO: 2022-04-21 10:40:05,488: Mean absolute error: 2.9195188515885793
+INFO: 2022-04-21 10:40:05,488: R2 score: 0.9229211722807037
+INFO: 2022-04-21 10:40:05,500: ################################
+INFO: 2022-04-21 10:40:09,295: Trial number: 4
+INFO: 2022-04-21 10:40:09,295: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:40:09,295: Max_depth: 6
+INFO: 2022-04-21 10:40:09,304: n_estimators: 173
+INFO: 2022-04-21 10:40:09,916: Root mean square error: 4.5233601035350315
+INFO: 2022-04-21 10:40:09,916: Mean absolute error: 2.8723476153165297
+INFO: 2022-04-21 10:40:09,926: R2 score: 0.9256855585092351
+INFO: 2022-04-21 10:40:09,935: ################################
+INFO: 2022-04-21 10:40:13,910: Trial number: 5
+INFO: 2022-04-21 10:40:13,910: Model: RandomForestRegressor
+INFO: 2022-04-21 10:40:13,910: Max_depth: 5
+INFO: 2022-04-21 10:40:13,914: n_estimators: 55
+INFO: 2022-04-21 10:40:14,144: Root mean square error: 7.019715712784809
+INFO: 2022-04-21 10:40:14,144: Mean absolute error: 5.600404407762895
+INFO: 2022-04-21 10:40:14,144: R2 score: 0.8210260017254412
+INFO: 2022-04-21 10:40:14,149: ################################
+INFO: 2022-04-21 10:40:18,243: Trial number: 6
+INFO: 2022-04-21 10:40:18,243: Model: RandomForestRegressor
+INFO: 2022-04-21 10:40:18,246: Max_depth: 5
+INFO: 2022-04-21 10:40:18,248: n_estimators: 153
+INFO: 2022-04-21 10:40:18,888: Root mean square error: 6.950654832866848
+INFO: 2022-04-21 10:40:18,901: Mean absolute error: 5.533626181899071
+INFO: 2022-04-21 10:40:18,910: R2 score: 0.8245302181805394
+INFO: 2022-04-21 10:40:18,925: ################################
+INFO: 2022-04-21 10:40:22,973: Trial number: 7
+INFO: 2022-04-21 10:40:22,988: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:40:22,991: Max_depth: 7
+INFO: 2022-04-21 10:40:22,991: n_estimators: 198
+INFO: 2022-04-21 10:40:23,866: Root mean square error: 4.760898677453916
+INFO: 2022-04-21 10:40:23,866: Mean absolute error: 3.045114962633539
+INFO: 2022-04-21 10:40:23,874: R2 score: 0.9176755629792717
+INFO: 2022-04-21 10:40:23,874: ################################
+INFO: 2022-04-21 10:40:27,955: Trial number: 8
+INFO: 2022-04-21 10:40:27,955: Model: RandomForestRegressor
+INFO: 2022-04-21 10:40:27,959: Max_depth: 4
+INFO: 2022-04-21 10:40:27,959: n_estimators: 95
+INFO: 2022-04-21 10:40:28,269: Root mean square error: 7.880193214885594
+INFO: 2022-04-21 10:40:28,284: Mean absolute error: 6.32417407973653
+INFO: 2022-04-21 10:40:28,285: R2 score: 0.7744594557776716
+INFO: 2022-04-21 10:40:28,286: ################################
+INFO: 2022-04-21 10:40:32,361: Trial number: 9
+INFO: 2022-04-21 10:40:32,361: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:40:32,375: Max_depth: 6
+INFO: 2022-04-21 10:40:32,376: n_estimators: 74
+INFO: 2022-04-21 10:40:32,752: Root mean square error: 4.853248189698225
+INFO: 2022-04-21 10:40:32,756: Mean absolute error: 3.1557050420886816
+INFO: 2022-04-21 10:40:32,761: R2 score: 0.9144508115047477
+INFO: 2022-04-21 10:40:32,764: ################################
+INFO: 2022-04-21 10:40:36,849: Trial number: 10
+INFO: 2022-04-21 10:40:36,849: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:40:36,891: Max_depth: 8
+INFO: 2022-04-21 10:40:36,892: n_estimators: 197
+INFO: 2022-04-21 10:40:37,754: Root mean square error: 4.949954886240427
+INFO: 2022-04-21 10:40:37,754: Mean absolute error: 3.178404596576029
+INFO: 2022-04-21 10:40:37,761: R2 score: 0.9110075069320958
+INFO: 2022-04-21 10:40:37,761: ################################
+INFO: 2022-04-21 10:40:41,815: Trial number: 11
+INFO: 2022-04-21 10:40:41,815: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:40:41,815: Max_depth: 3
+INFO: 2022-04-21 10:40:41,829: n_estimators: 157
+INFO: 2022-04-21 10:40:42,158: Root mean square error: 4.637320069069589
+INFO: 2022-04-21 10:40:42,158: Mean absolute error: 3.338931736655505
+INFO: 2022-04-21 10:40:42,158: R2 score: 0.9218938851087479
+INFO: 2022-04-21 10:40:42,161: ################################
+INFO: 2022-04-21 10:40:46,051: Trial number: 12
+INFO: 2022-04-21 10:40:46,051: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:40:46,085: Max_depth: 7
+INFO: 2022-04-21 10:40:46,086: n_estimators: 159
+INFO: 2022-04-21 10:40:46,738: Root mean square error: 4.808876463978847
+INFO: 2022-04-21 10:40:46,740: Mean absolute error: 3.091607318679169
+INFO: 2022-04-21 10:40:46,740: R2 score: 0.9160079593449387
+INFO: 2022-04-21 10:40:46,741: ################################
+INFO: 2022-04-21 10:40:50,583: Trial number: 13
+INFO: 2022-04-21 10:40:50,583: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:40:50,594: Max_depth: 7
+INFO: 2022-04-21 10:40:50,599: n_estimators: 127
+INFO: 2022-04-21 10:40:51,118: Root mean square error: 4.834488876590014
+INFO: 2022-04-21 10:40:51,123: Mean absolute error: 3.1007570165657614
+INFO: 2022-04-21 10:40:51,147: R2 score: 0.9151108817669736
+INFO: 2022-04-21 10:40:51,194: ################################
+INFO: 2022-04-21 10:40:54,992: Trial number: 14
+INFO: 2022-04-21 10:40:54,992: Model: LinearRegression
+INFO: 2022-04-21 10:40:55,010: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:40:55,011: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:40:55,012: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:40:55,013: ################################
+INFO: 2022-04-21 10:40:58,568: Trial number: 15
+INFO: 2022-04-21 10:40:58,568: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:40:58,603: Max_depth: 6
+INFO: 2022-04-21 10:40:58,603: n_estimators: 174
+INFO: 2022-04-21 10:40:59,293: Root mean square error: 4.597251952969367
+INFO: 2022-04-21 10:40:59,293: Mean absolute error: 2.8976281431123634
+INFO: 2022-04-21 10:40:59,293: R2 score: 0.9232377839766972
+INFO: 2022-04-21 10:40:59,293: ################################
+INFO: 2022-04-21 10:41:03,072: Trial number: 16
+INFO: 2022-04-21 10:41:03,072: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:41:03,100: Max_depth: 4
+INFO: 2022-04-21 10:41:03,101: n_estimators: 179
+INFO: 2022-04-21 10:41:03,550: Root mean square error: 4.3744712279193525
+INFO: 2022-04-21 10:41:03,552: Mean absolute error: 3.070541133197666
+INFO: 2022-04-21 10:41:03,553: R2 score: 0.9304972448690372
+INFO: 2022-04-21 10:41:03,554: ################################
+INFO: 2022-04-21 10:41:07,439: Trial number: 17
+INFO: 2022-04-21 10:41:07,442: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:41:07,454: Max_depth: 3
+INFO: 2022-04-21 10:41:07,455: n_estimators: 178
+INFO: 2022-04-21 10:41:07,847: Root mean square error: 4.5520740988496105
+INFO: 2022-04-21 10:41:07,866: Mean absolute error: 3.270651453348531
+INFO: 2022-04-21 10:41:07,872: R2 score: 0.9247390774454759
+INFO: 2022-04-21 10:41:07,889: ################################
+INFO: 2022-04-21 10:41:11,690: Trial number: 18
+INFO: 2022-04-21 10:41:11,690: Model: LinearRegression
+INFO: 2022-04-21 10:41:11,697: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:41:11,698: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:41:11,699: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:41:11,699: ################################
+INFO: 2022-04-21 10:41:15,690: Trial number: 19
+INFO: 2022-04-21 10:41:15,690: Model: RandomForestRegressor
+INFO: 2022-04-21 10:41:15,728: Max_depth: 4
+INFO: 2022-04-21 10:41:15,729: n_estimators: 179
+INFO: 2022-04-21 10:41:16,533: Root mean square error: 7.744479406767694
+INFO: 2022-04-21 10:41:16,533: Mean absolute error: 6.245930298998574
+INFO: 2022-04-21 10:41:16,533: R2 score: 0.7821611426094914
+INFO: 2022-04-21 10:41:16,549: ################################
+INFO: 2022-04-21 10:41:20,639: Trial number: 16
+INFO: 2022-04-21 10:41:20,641: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:41:20,642: Max_depth: 4
+INFO: 2022-04-21 10:41:20,646: n_estimators: 179
+INFO: 2022-04-21 10:45:53,870: In build_model
+INFO: 2022-04-21 10:45:54,470: Trial number: 0
+INFO: 2022-04-21 10:45:54,470: Model: LinearRegression
+INFO: 2022-04-21 10:45:54,477: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:45:54,478: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:45:54,479: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:45:54,479: ################################
+INFO: 2022-04-21 10:45:59,446: Trial number: 1
+INFO: 2022-04-21 10:45:59,448: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:45:59,449: Max_depth: 7
+INFO: 2022-04-21 10:45:59,450: n_estimators: 69
+INFO: 2022-04-21 10:45:59,772: Root mean square error: 4.858290277962844
+INFO: 2022-04-21 10:45:59,773: Mean absolute error: 3.1857655652418444
+INFO: 2022-04-21 10:45:59,774: R2 score: 0.9142729633471319
+INFO: 2022-04-21 10:45:59,774: ################################
+INFO: 2022-04-21 10:46:03,608: Trial number: 2
+INFO: 2022-04-21 10:46:03,608: Model: LinearRegression
+INFO: 2022-04-21 10:46:03,621: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:46:03,621: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:46:03,622: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:46:03,622: ################################
+INFO: 2022-04-21 10:46:07,211: Trial number: 3
+INFO: 2022-04-21 10:46:07,212: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:46:07,213: Max_depth: 3
+INFO: 2022-04-21 10:46:07,213: n_estimators: 82
+INFO: 2022-04-21 10:46:07,408: Root mean square error: 5.271509615750368
+INFO: 2022-04-21 10:46:07,409: Mean absolute error: 3.911587933606079
+INFO: 2022-04-21 10:46:07,409: R2 score: 0.8990698548277412
+INFO: 2022-04-21 10:46:07,410: ################################
+INFO: 2022-04-21 10:46:11,272: Trial number: 4
+INFO: 2022-04-21 10:46:11,272: Model: RandomForestRegressor
+INFO: 2022-04-21 10:46:11,282: Max_depth: 4
+INFO: 2022-04-21 10:46:11,282: n_estimators: 116
+INFO: 2022-04-21 10:46:11,661: Root mean square error: 8.019363595209464
+INFO: 2022-04-21 10:46:11,661: Mean absolute error: 6.421602915984103
+INFO: 2022-04-21 10:46:11,662: R2 score: 0.7664226638480753
+INFO: 2022-04-21 10:46:11,663: ################################
+INFO: 2022-04-21 10:46:15,375: Trial number: 5
+INFO: 2022-04-21 10:46:15,376: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:46:15,378: Max_depth: 6
+INFO: 2022-04-21 10:46:15,379: n_estimators: 79
+INFO: 2022-04-21 10:46:15,640: Root mean square error: 4.752982666797238
+INFO: 2022-04-21 10:46:15,640: Mean absolute error: 3.1261136300627603
+INFO: 2022-04-21 10:46:15,640: R2 score: 0.9179490992947306
+INFO: 2022-04-21 10:46:15,649: ################################
+INFO: 2022-04-21 10:46:19,377: Trial number: 6
+INFO: 2022-04-21 10:46:19,377: Model: RandomForestRegressor
+INFO: 2022-04-21 10:46:19,387: Max_depth: 5
+INFO: 2022-04-21 10:46:19,388: n_estimators: 191
+INFO: 2022-04-21 10:46:19,997: Root mean square error: 7.062806807849833
+INFO: 2022-04-21 10:46:19,997: Mean absolute error: 5.621129356321889
+INFO: 2022-04-21 10:46:19,997: R2 score: 0.8188219647447117
+INFO: 2022-04-21 10:46:20,000: ################################
+INFO: 2022-04-21 10:46:23,973: Trial number: 7
+INFO: 2022-04-21 10:46:23,973: Model: LinearRegression
+INFO: 2022-04-21 10:46:23,981: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:46:23,982: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:46:23,983: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:46:23,983: ################################
+INFO: 2022-04-21 10:46:27,704: Trial number: 8
+INFO: 2022-04-21 10:46:27,705: Model: LinearRegression
+INFO: 2022-04-21 10:46:27,714: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:46:27,714: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:46:27,715: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:46:27,715: ################################
+INFO: 2022-04-21 10:46:31,396: Trial number: 9
+INFO: 2022-04-21 10:46:31,396: Model: LinearRegression
+INFO: 2022-04-21 10:46:31,412: Root mean square error: 10.097758799120044
+INFO: 2022-04-21 10:46:31,413: Mean absolute error: 8.071229431919724
+INFO: 2022-04-21 10:46:31,414: R2 score: 0.6296597826068395
+INFO: 2022-04-21 10:46:31,430: ################################
+INFO: 2022-04-21 10:46:35,276: Trial number: 10
+INFO: 2022-04-21 10:46:35,284: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:46:35,296: Max_depth: 8
+INFO: 2022-04-21 10:46:35,298: n_estimators: 50
+INFO: 2022-04-21 10:46:35,566: Root mean square error: 4.996663958507934
+INFO: 2022-04-21 10:46:35,566: Mean absolute error: 3.2761547290383004
+INFO: 2022-04-21 10:46:35,569: R2 score: 0.9093200697697473
+INFO: 2022-04-21 10:46:35,569: ################################
+INFO: 2022-04-21 10:46:39,785: Trial number: 11
+INFO: 2022-04-21 10:46:39,785: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:46:39,818: Max_depth: 7
+INFO: 2022-04-21 10:46:39,821: n_estimators: 79
+INFO: 2022-04-21 10:46:40,131: Root mean square error: 4.841563690280034
+INFO: 2022-04-21 10:46:40,147: Mean absolute error: 3.1560498677059448
+INFO: 2022-04-21 10:46:40,147: R2 score: 0.9148622457051008
+INFO: 2022-04-21 10:46:40,147: ################################
+INFO: 2022-04-21 10:46:43,979: Trial number: 12
+INFO: 2022-04-21 10:46:43,979: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:46:43,988: Max_depth: 6
+INFO: 2022-04-21 10:46:43,989: n_estimators: 111
+INFO: 2022-04-21 10:46:44,347: Root mean square error: 4.721483831734887
+INFO: 2022-04-21 10:46:44,362: Mean absolute error: 3.0160999617113493
+INFO: 2022-04-21 10:46:44,363: R2 score: 0.9190330265797253
+INFO: 2022-04-21 10:46:44,363: ################################
+INFO: 2022-04-21 10:46:48,508: Trial number: 13
+INFO: 2022-04-21 10:46:48,508: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:46:48,536: Max_depth: 6
+INFO: 2022-04-21 10:46:48,537: n_estimators: 114
+INFO: 2022-04-21 10:46:48,944: Root mean square error: 4.608048947840298
+INFO: 2022-04-21 10:46:48,960: Mean absolute error: 2.9676028768709157
+INFO: 2022-04-21 10:46:48,961: R2 score: 0.922876796798934
+INFO: 2022-04-21 10:46:48,962: ################################
+INFO: 2022-04-21 10:46:52,830: Trial number: 14
+INFO: 2022-04-21 10:46:52,830: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:46:52,852: Max_depth: 6
+INFO: 2022-04-21 10:46:52,852: n_estimators: 133
+INFO: 2022-04-21 10:46:53,339: Root mean square error: 4.7220316580112
+INFO: 2022-04-21 10:46:53,339: Mean absolute error: 2.9881301126805133
+INFO: 2022-04-21 10:46:53,339: R2 score: 0.9190142365508265
+INFO: 2022-04-21 10:46:53,346: ################################
+INFO: 2022-04-21 10:46:57,471: Trial number: 15
+INFO: 2022-04-21 10:46:57,471: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:46:57,494: Max_depth: 5
+INFO: 2022-04-21 10:46:57,496: n_estimators: 123
+INFO: 2022-04-21 10:46:57,862: Root mean square error: 4.4338375371112155
+INFO: 2022-04-21 10:46:57,862: Mean absolute error: 2.9555029496301173
+INFO: 2022-04-21 10:46:57,877: R2 score: 0.9285979890251266
+INFO: 2022-04-21 10:46:57,878: ################################
+INFO: 2022-04-21 10:47:01,955: Trial number: 16
+INFO: 2022-04-21 10:47:01,956: Model: RandomForestRegressor
+INFO: 2022-04-21 10:47:01,966: Max_depth: 5
+INFO: 2022-04-21 10:47:01,967: n_estimators: 150
+INFO: 2022-04-21 10:47:02,522: Root mean square error: 7.06113407313944
+INFO: 2022-04-21 10:47:02,524: Mean absolute error: 5.53443192486804
+INFO: 2022-04-21 10:47:02,546: R2 score: 0.818907773944459
+INFO: 2022-04-21 10:47:02,575: ################################
+INFO: 2022-04-21 10:47:06,530: Trial number: 17
+INFO: 2022-04-21 10:47:06,531: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:47:06,540: Max_depth: 4
+INFO: 2022-04-21 10:47:06,541: n_estimators: 155
+INFO: 2022-04-21 10:47:06,939: Root mean square error: 4.416490983974635
+INFO: 2022-04-21 10:47:06,943: Mean absolute error: 3.114370417141649
+INFO: 2022-04-21 10:47:06,943: R2 score: 0.9291555899359193
+INFO: 2022-04-21 10:47:06,945: ################################
+INFO: 2022-04-21 10:47:10,868: Trial number: 18
+INFO: 2022-04-21 10:47:10,868: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:47:10,890: Max_depth: 3
+INFO: 2022-04-21 10:47:10,894: n_estimators: 169
+INFO: 2022-04-21 10:47:11,235: Root mean square error: 4.58047264689358
+INFO: 2022-04-21 10:47:11,235: Mean absolute error: 3.294813344846456
+INFO: 2022-04-21 10:47:11,235: R2 score: 0.9237971034107014
+INFO: 2022-04-21 10:47:11,235: ################################
+INFO: 2022-04-21 10:47:15,039: Trial number: 19
+INFO: 2022-04-21 10:47:15,039: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:47:15,064: Max_depth: 4
+INFO: 2022-04-21 10:47:15,067: n_estimators: 147
+INFO: 2022-04-21 10:47:15,446: Root mean square error: 4.398986330380301
+INFO: 2022-04-21 10:47:15,446: Mean absolute error: 3.0989827876775
+INFO: 2022-04-21 10:47:15,446: R2 score: 0.9297160571915821
+INFO: 2022-04-21 10:47:15,457: ################################
+INFO: 2022-04-21 10:47:19,461: Trial number: 19
+INFO: 2022-04-21 10:47:19,461: Model: GradientBoostingRegressor
+INFO: 2022-04-21 10:47:19,462: Max_depth: 4
+INFO: 2022-04-21 10:47:19,462: n_estimators: 147

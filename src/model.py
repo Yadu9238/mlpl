@@ -5,13 +5,16 @@ from optuna.integration.mlflow import MLflowCallback
 from get_data import read_params
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 import numpy as np
-
+import mlflow
 from log import logger
 
 logger = logger('logs/', 'model.log')
 config = read_params('params.yaml')
 models = config['models']['Regression']
-mlflc = MLflowCallback(metric_name='r2_score')
+mlflc = MLflowCallback(
+    metric_name='r2_score'
+    )
+artifact_path = config['load_data']['raw_data']
 # test = [x for x in models]
 # print(test)
 
@@ -80,29 +83,35 @@ def create_model(trial, max_feature):
     # mlflow.sklearn.log_model(model,model_type)
     return model
 
+def objective_with_args(X_train,X_test,y_train,y_test):
+    
+    @mlflc.track_in_mlflow()
+    def objective(trial):
+        # mlflow.sklearn.autolog()
+        model = create_model(trial, X_train.shape[1])
 
-def objective(trial, X_train, X_test, y_train, y_test):
+        model.fit(X_train, y_train)
+        # live.log(trial,model.score(X_test,y_test))
+        y_pred = model.predict(X_test)
+        rmse, mae, r2 = eval(y_pred, y_test)
 
-    model = create_model(trial, X_train.shape[1])
-
-    model.fit(X_train, y_train)
-    # live.log(trial,model.score(X_test,y_test))
-    y_pred = model.predict(X_test)
-    rmse, mae, r2 = eval(y_pred, y_test)
-
-    logger.info("Root mean square error: "+str(rmse))
-    logger.info("Mean absolute error: "+str(mae))
-    logger.info("R2 score: "+str(r2))
-    logger.info("################################")
-    return model.score(X_test, y_test)
+        logger.info("Root mean square error: "+str(rmse))
+        logger.info("Mean absolute error: "+str(mae))
+        logger.info("R2 score: "+str(r2))
+        logger.info("################################")
+        mlflow.log_metric('RMSE',rmse)
+        mlflow.log_metric('MAE',mae)
+        mlflow.sklearn.log_model(model,"model")
+        return model.score(X_test, y_test)
+    return objective
 
 
 def build_model(X_train, X_test, y_train, y_test):
     logger.info("In build_model")
     optuna.logging.set_verbosity(optuna.logging.WARNING)
 
-    study = optuna.create_study(study_name='Hyper', direction='maximize')
-    study.optimize(lambda trial: objective(trial, X_train, X_test,
+    study = optuna.create_study(study_name='opt', direction='maximize')
+    study.optimize(objective_with_args(X_train, X_test,
                    y_train, y_test), n_trials=20, callbacks=[mlflc])
     print("Number of trials : {}".format(len(study.trials)))
     # study.
