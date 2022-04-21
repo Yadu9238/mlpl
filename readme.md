@@ -40,7 +40,7 @@ dvc init
 ```
 
 ```bash
-├── data/                              *contains datasets*
+├── data/                              # contains datasets
 │   ├── processed
 │   └── raw/
 ├── dvc.lock
@@ -50,7 +50,7 @@ dvc init
 │   ├── preprocessing.log
 │   └── training.log
 ├── notebooks
-├── params.yaml                        * parameters for the project *
+├── params.yaml                        # parameters for the project 
 ├── readme.md
 ├── report/
 │   ├── params.json
@@ -58,13 +58,13 @@ dvc init
 ├── requirements.txt
 ├── saved_models
 ├── src/
-│   ├── get_data.py                    *helper function to read data from config*
-│   ├── load_data.py                   *get data from remote source *   
-│   ├── log.py                         *helper function for logging*
-│   ├── model.py                       *build model *
-│   ├── split_data.py                  *used for splitting data into test and train data *
-│   └── train.py                       *train the model and save the best one *
-├── template.py                        *script to generate initial file dirs *
+│   ├── get_data.py                    # helper function to read data from config
+│   ├── load_data.py                   # get data from remote source    
+│   ├── log.py                         # helper function for logging
+│   ├── model.py                       # build model 
+│   ├── split_data.py                  # used for splitting data into test and train data 
+│   └── train.py                       # train the model and save the best one 
+├── template.py                        # script to generate initial file dirs 
 
 ```
 
