@@ -1,0 +1,570 @@
+INFO: 2022-04-20 04:47:58,096: In load_save_data
+INFO: 2022-04-20 04:47:58,096: Reading config
+INFO: 2022-04-20 04:47:58,096: In read_params
+INFO: 2022-04-20 04:47:58,096: Trying to read params.yaml
+INFO: 2022-04-20 04:47:58,106: Parameters read
+INFO: 2022-04-20 04:47:58,106: Returning configs
+INFO: 2022-04-20 04:47:58,107: Received configs
+INFO: 2022-04-20 04:47:58,107: Reading data with details from config
+INFO: 2022-04-20 04:47:58,107: In read_data
+INFO: 2022-04-20 04:47:58,107: In read_params
+INFO: 2022-04-20 04:47:58,107: Trying to read params.yaml
+INFO: 2022-04-20 04:47:58,112: Parameters read
+INFO: 2022-04-20 04:47:58,112: Returning configs
+INFO: 2022-04-20 04:47:58,112: Provided data path is: data/raw/Concrete_Data.csv
+INFO: 2022-04-20 04:47:58,120: Data read from the provided file
+INFO: 2022-04-20 04:47:58,121: Finished reading data
+INFO: 2022-04-20 04:47:58,121: Saving data locally in path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 04:48:01,321: In split_save_data
+INFO: 2022-04-20 04:48:01,321: Reading config file
+INFO: 2022-04-20 04:48:01,321: In read_params
+INFO: 2022-04-20 04:48:01,321: Trying to read params.yaml
+INFO: 2022-04-20 04:48:01,344: Parameters read
+INFO: 2022-04-20 04:48:01,344: Returning configs
+INFO: 2022-04-20 04:48:01,354: Received config details are:
+INFO: 2022-04-20 04:48:01,359: Train data path: data/processed/train_data.csv
+INFO: 2022-04-20 04:48:01,359: Test data path: data/processed/test_data.csv
+INFO: 2022-04-20 04:48:01,360: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 04:48:01,360: Split ratio: 0.2
+INFO: 2022-04-20 04:48:01,361: Random state: 37
+INFO: 2022-04-20 04:48:01,380: Splitting data into Train and Test
+INFO: 2022-04-20 04:48:01,383: Saving train data into data/processed/train_data.csv
+INFO: 2022-04-20 04:48:01,398: Saving test data into data/processed/test_data.csv
+INFO: 2022-04-20 04:48:08,096: In read_params
+INFO: 2022-04-20 04:48:08,101: Trying to read params.yaml
+INFO: 2022-04-20 04:48:08,106: Parameters read
+INFO: 2022-04-20 04:48:08,107: Returning configs
+INFO: 2022-04-20 05:05:42,689: In load_save_data
+INFO: 2022-04-20 05:05:42,689: Reading config
+INFO: 2022-04-20 05:05:42,689: In read_params
+INFO: 2022-04-20 05:05:42,689: Trying to read params.yaml
+INFO: 2022-04-20 05:05:42,703: Parameters read
+INFO: 2022-04-20 05:05:42,703: Returning configs
+INFO: 2022-04-20 05:05:42,703: Received configs
+INFO: 2022-04-20 05:05:42,704: Reading data with details from config
+INFO: 2022-04-20 05:05:42,704: In read_data
+INFO: 2022-04-20 05:05:42,704: In read_params
+INFO: 2022-04-20 05:05:42,704: Trying to read params.yaml
+INFO: 2022-04-20 05:05:42,708: Parameters read
+INFO: 2022-04-20 05:05:42,708: Returning configs
+INFO: 2022-04-20 05:05:42,718: Provided data path is: data/raw/Concrete_Data.csv
+INFO: 2022-04-20 05:05:42,733: Data read from the provided file
+INFO: 2022-04-20 05:05:42,736: Finished reading data
+INFO: 2022-04-20 05:05:42,737: Saving data locally in path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 05:05:46,110: In split_save_data
+INFO: 2022-04-20 05:05:46,110: Reading config file
+INFO: 2022-04-20 05:05:46,110: In read_params
+INFO: 2022-04-20 05:05:46,122: Trying to read params.yaml
+INFO: 2022-04-20 05:05:46,130: Parameters read
+INFO: 2022-04-20 05:05:46,131: Returning configs
+INFO: 2022-04-20 05:05:46,131: Received config details are:
+INFO: 2022-04-20 05:05:46,132: Train data path: data/processed/train_data.csv
+INFO: 2022-04-20 05:05:46,132: Test data path: data/processed/test_data.csv
+INFO: 2022-04-20 05:05:46,133: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 05:05:46,133: Split ratio: 0.2
+INFO: 2022-04-20 05:05:46,134: Random state: 37
+INFO: 2022-04-20 05:05:46,145: Splitting data into Train and Test
+INFO: 2022-04-20 05:05:46,149: Saving train data into data/processed/train_data.csv
+INFO: 2022-04-20 05:05:46,161: Saving test data into data/processed/test_data.csv
+INFO: 2022-04-20 05:06:46,034: In load_save_data
+INFO: 2022-04-20 05:06:46,035: Reading config
+INFO: 2022-04-20 05:06:46,036: In read_params
+INFO: 2022-04-20 05:06:46,036: Trying to read params.yaml
+INFO: 2022-04-20 05:06:46,044: Parameters read
+INFO: 2022-04-20 05:06:46,044: Returning configs
+INFO: 2022-04-20 05:06:46,044: Received configs
+INFO: 2022-04-20 05:06:46,045: Reading data with details from config
+INFO: 2022-04-20 05:06:46,045: In read_data
+INFO: 2022-04-20 05:06:46,045: In read_params
+INFO: 2022-04-20 05:06:46,046: Trying to read params.yaml
+INFO: 2022-04-20 05:06:46,051: Parameters read
+INFO: 2022-04-20 05:06:46,051: Returning configs
+INFO: 2022-04-20 05:06:46,051: Provided data path is: data/raw/Concrete_Data.csv
+INFO: 2022-04-20 05:06:46,058: Data read from the provided file
+INFO: 2022-04-20 05:06:46,058: Finished reading data
+INFO: 2022-04-20 05:06:46,058: Saving data locally in path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 05:06:49,471: In split_save_data
+INFO: 2022-04-20 05:06:49,471: Reading config file
+INFO: 2022-04-20 05:06:49,471: In read_params
+INFO: 2022-04-20 05:06:49,471: Trying to read params.yaml
+INFO: 2022-04-20 05:06:49,484: Parameters read
+INFO: 2022-04-20 05:06:49,485: Returning configs
+INFO: 2022-04-20 05:06:49,485: Received config details are:
+INFO: 2022-04-20 05:06:49,485: Train data path: data/processed/train_data.csv
+INFO: 2022-04-20 05:06:49,485: Test data path: data/processed/test_data.csv
+INFO: 2022-04-20 05:06:49,486: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 05:06:49,486: Split ratio: 0.2
+INFO: 2022-04-20 05:06:49,487: Random state: 37
+INFO: 2022-04-20 05:06:49,495: Splitting data into Train and Test
+INFO: 2022-04-20 05:06:49,505: Saving train data into data/processed/train_data.csv
+INFO: 2022-04-20 05:06:49,516: Saving test data into data/processed/test_data.csv
+INFO: 2022-04-20 05:06:56,128: In read_params
+INFO: 2022-04-20 05:06:56,129: Trying to read params.yaml
+INFO: 2022-04-20 05:06:56,139: Parameters read
+INFO: 2022-04-20 05:06:56,142: Returning configs
+INFO: 2022-04-20 05:10:08,170: In load_save_data
+INFO: 2022-04-20 05:10:08,170: Reading config
+INFO: 2022-04-20 05:10:08,170: In read_params
+INFO: 2022-04-20 05:10:08,170: Trying to read params.yaml
+INFO: 2022-04-20 05:10:08,195: Parameters read
+INFO: 2022-04-20 05:10:08,195: Returning configs
+INFO: 2022-04-20 05:10:08,196: Received configs
+INFO: 2022-04-20 05:10:08,196: Reading data with details from config
+INFO: 2022-04-20 05:10:08,197: In read_data
+INFO: 2022-04-20 05:10:08,197: In read_params
+INFO: 2022-04-20 05:10:08,198: Trying to read params.yaml
+INFO: 2022-04-20 05:10:08,209: Parameters read
+INFO: 2022-04-20 05:10:08,209: Returning configs
+INFO: 2022-04-20 05:10:08,210: Provided data path is: data/raw/Concrete_Data.csv
+INFO: 2022-04-20 05:10:08,217: Data read from the provided file
+INFO: 2022-04-20 05:10:08,217: Finished reading data
+INFO: 2022-04-20 05:10:08,218: Saving data locally in path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 05:10:11,692: In split_save_data
+INFO: 2022-04-20 05:10:11,693: Reading config file
+INFO: 2022-04-20 05:10:11,693: In read_params
+INFO: 2022-04-20 05:10:11,693: Trying to read params.yaml
+INFO: 2022-04-20 05:10:11,697: Parameters read
+INFO: 2022-04-20 05:10:11,697: Returning configs
+INFO: 2022-04-20 05:10:11,698: Received config details are:
+INFO: 2022-04-20 05:10:11,698: Train data path: data/processed/train_data.csv
+INFO: 2022-04-20 05:10:11,698: Test data path: data/processed/test_data.csv
+INFO: 2022-04-20 05:10:11,698: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 05:10:11,698: Split ratio: 0.2
+INFO: 2022-04-20 05:10:11,698: Random state: 37
+INFO: 2022-04-20 05:10:11,704: Splitting data into Train and Test
+INFO: 2022-04-20 05:10:11,705: Saving train data into data/processed/train_data.csv
+INFO: 2022-04-20 05:10:11,714: Saving test data into data/processed/test_data.csv
+INFO: 2022-04-20 05:10:18,602: In read_params
+INFO: 2022-04-20 05:10:18,602: Trying to read params.yaml
+INFO: 2022-04-20 05:10:18,607: Parameters read
+INFO: 2022-04-20 05:10:18,607: Returning configs
+INFO: 2022-04-20 05:11:00,607: In load_save_data
+INFO: 2022-04-20 05:11:00,608: Reading config
+INFO: 2022-04-20 05:11:00,608: In read_params
+INFO: 2022-04-20 05:11:00,609: Trying to read params.yaml
+INFO: 2022-04-20 05:11:00,616: Parameters read
+INFO: 2022-04-20 05:11:00,616: Returning configs
+INFO: 2022-04-20 05:11:00,617: Received configs
+INFO: 2022-04-20 05:11:00,617: Reading data with details from config
+INFO: 2022-04-20 05:11:00,617: In read_data
+INFO: 2022-04-20 05:11:00,618: In read_params
+INFO: 2022-04-20 05:11:00,618: Trying to read params.yaml
+INFO: 2022-04-20 05:11:00,626: Parameters read
+INFO: 2022-04-20 05:11:00,626: Returning configs
+INFO: 2022-04-20 05:11:00,627: Provided data path is: data/raw/Concrete_Data.csv
+INFO: 2022-04-20 05:11:00,634: Data read from the provided file
+INFO: 2022-04-20 05:11:00,635: Finished reading data
+INFO: 2022-04-20 05:11:00,636: Saving data locally in path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 05:11:03,976: In split_save_data
+INFO: 2022-04-20 05:11:03,976: Reading config file
+INFO: 2022-04-20 05:11:03,976: In read_params
+INFO: 2022-04-20 05:11:03,976: Trying to read params.yaml
+INFO: 2022-04-20 05:11:03,983: Parameters read
+INFO: 2022-04-20 05:11:03,984: Returning configs
+INFO: 2022-04-20 05:11:03,984: Received config details are:
+INFO: 2022-04-20 05:11:03,985: Train data path: data/processed/train_data.csv
+INFO: 2022-04-20 05:11:03,985: Test data path: data/processed/test_data.csv
+INFO: 2022-04-20 05:11:03,985: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 05:11:03,986: Split ratio: 0.2
+INFO: 2022-04-20 05:11:03,986: Random state: 37
+INFO: 2022-04-20 05:11:03,991: Splitting data into Train and Test
+INFO: 2022-04-20 05:11:03,993: Saving train data into data/processed/train_data.csv
+INFO: 2022-04-20 05:11:04,009: Saving test data into data/processed/test_data.csv
+INFO: 2022-04-20 05:11:10,838: In read_params
+INFO: 2022-04-20 05:11:10,840: Trying to read params.yaml
+INFO: 2022-04-20 05:11:10,846: Parameters read
+INFO: 2022-04-20 05:11:10,847: Returning configs
+INFO: 2022-04-20 05:12:01,252: In load_save_data
+INFO: 2022-04-20 05:12:01,252: Reading config
+INFO: 2022-04-20 05:12:01,252: In read_params
+INFO: 2022-04-20 05:12:01,252: Trying to read params.yaml
+INFO: 2022-04-20 05:12:01,274: Parameters read
+INFO: 2022-04-20 05:12:01,274: Returning configs
+INFO: 2022-04-20 05:12:01,275: Received configs
+INFO: 2022-04-20 05:12:01,275: Reading data with details from config
+INFO: 2022-04-20 05:12:01,276: In read_data
+INFO: 2022-04-20 05:12:01,276: In read_params
+INFO: 2022-04-20 05:12:01,276: Trying to read params.yaml
+INFO: 2022-04-20 05:12:01,282: Parameters read
+INFO: 2022-04-20 05:12:01,282: Returning configs
+INFO: 2022-04-20 05:12:01,282: Provided data path is: data/raw/Concrete_Data.csv
+INFO: 2022-04-20 05:12:01,289: Data read from the provided file
+INFO: 2022-04-20 05:12:01,289: Finished reading data
+INFO: 2022-04-20 05:12:01,290: Saving data locally in path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 05:12:04,364: In split_save_data
+INFO: 2022-04-20 05:12:04,364: Reading config file
+INFO: 2022-04-20 05:12:04,364: In read_params
+INFO: 2022-04-20 05:12:04,364: Trying to read params.yaml
+INFO: 2022-04-20 05:12:04,381: Parameters read
+INFO: 2022-04-20 05:12:04,381: Returning configs
+INFO: 2022-04-20 05:12:04,382: Received config details are:
+INFO: 2022-04-20 05:12:04,382: Train data path: data/processed/train_data.csv
+INFO: 2022-04-20 05:12:04,383: Test data path: data/processed/test_data.csv
+INFO: 2022-04-20 05:12:04,383: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 05:12:04,384: Split ratio: 0.2
+INFO: 2022-04-20 05:12:04,384: Random state: 37
+INFO: 2022-04-20 05:12:04,396: Splitting data into Train and Test
+INFO: 2022-04-20 05:12:04,405: Saving train data into data/processed/train_data.csv
+INFO: 2022-04-20 05:12:04,422: Saving test data into data/processed/test_data.csv
+INFO: 2022-04-20 05:12:11,203: In read_params
+INFO: 2022-04-20 05:12:11,205: Trying to read params.yaml
+INFO: 2022-04-20 05:12:11,211: Parameters read
+INFO: 2022-04-20 05:12:11,211: Returning configs
+INFO: 2022-04-20 05:15:34,765: In load_save_data
+INFO: 2022-04-20 05:15:34,765: Reading config
+INFO: 2022-04-20 05:15:34,765: In read_params
+INFO: 2022-04-20 05:15:34,765: Trying to read params.yaml
+INFO: 2022-04-20 05:15:34,774: Parameters read
+INFO: 2022-04-20 05:15:34,775: Returning configs
+INFO: 2022-04-20 05:15:34,775: Received configs
+INFO: 2022-04-20 05:15:34,775: Reading data with details from config
+INFO: 2022-04-20 05:15:34,775: In read_data
+INFO: 2022-04-20 05:15:34,776: In read_params
+INFO: 2022-04-20 05:15:34,777: Trying to read params.yaml
+INFO: 2022-04-20 05:15:34,782: Parameters read
+INFO: 2022-04-20 05:15:34,783: Returning configs
+INFO: 2022-04-20 05:15:34,783: Provided data path is: data/raw/Concrete_Data.csv
+INFO: 2022-04-20 05:15:34,790: Data read from the provided file
+INFO: 2022-04-20 05:15:34,791: Finished reading data
+INFO: 2022-04-20 05:15:34,791: Saving data locally in path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 05:15:38,007: In split_save_data
+INFO: 2022-04-20 05:15:38,007: Reading config file
+INFO: 2022-04-20 05:15:38,007: In read_params
+INFO: 2022-04-20 05:15:38,007: Trying to read params.yaml
+INFO: 2022-04-20 05:15:38,020: Parameters read
+INFO: 2022-04-20 05:15:38,021: Returning configs
+INFO: 2022-04-20 05:15:38,021: Received config details are:
+INFO: 2022-04-20 05:15:38,022: Train data path: data/processed/train_data.csv
+INFO: 2022-04-20 05:15:38,022: Test data path: data/processed/test_data.csv
+INFO: 2022-04-20 05:15:38,023: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 05:15:38,023: Split ratio: 0.2
+INFO: 2022-04-20 05:15:38,024: Random state: 37
+INFO: 2022-04-20 05:15:38,030: Splitting data into Train and Test
+INFO: 2022-04-20 05:15:38,036: Saving train data into data/processed/train_data.csv
+INFO: 2022-04-20 05:15:38,060: Saving test data into data/processed/test_data.csv
+INFO: 2022-04-20 05:15:45,172: In read_params
+INFO: 2022-04-20 05:15:45,172: Trying to read params.yaml
+INFO: 2022-04-20 05:15:45,181: Parameters read
+INFO: 2022-04-20 05:15:45,181: Returning configs
+INFO: 2022-04-20 09:23:35,537: In load_save_data
+INFO: 2022-04-20 09:23:35,537: Reading config
+INFO: 2022-04-20 09:23:35,537: In read_params
+INFO: 2022-04-20 09:23:35,537: Trying to read params.yaml
+INFO: 2022-04-20 09:23:35,552: Parameters read
+INFO: 2022-04-20 09:23:35,553: Returning configs
+INFO: 2022-04-20 09:23:35,553: Received configs
+INFO: 2022-04-20 09:23:35,554: Reading data with details from config
+INFO: 2022-04-20 09:23:35,554: In read_data
+INFO: 2022-04-20 09:23:35,554: In read_params
+INFO: 2022-04-20 09:23:35,555: Trying to read params.yaml
+INFO: 2022-04-20 09:23:35,560: Parameters read
+INFO: 2022-04-20 09:23:35,560: Returning configs
+INFO: 2022-04-20 09:23:35,571: Provided data path is: data/raw/Concrete_Data.csv
+INFO: 2022-04-20 09:23:35,588: Data read from the provided file
+INFO: 2022-04-20 09:23:35,589: Finished reading data
+INFO: 2022-04-20 09:23:35,590: Saving data locally in path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 09:23:41,766: In split_save_data
+INFO: 2022-04-20 09:23:41,767: Reading config file
+INFO: 2022-04-20 09:23:41,767: In read_params
+INFO: 2022-04-20 09:23:41,768: Trying to read params.yaml
+INFO: 2022-04-20 09:23:41,774: Parameters read
+INFO: 2022-04-20 09:23:41,775: Returning configs
+INFO: 2022-04-20 09:23:41,775: Received config details are:
+INFO: 2022-04-20 09:23:41,776: Train data path: data/processed/train_data.csv
+INFO: 2022-04-20 09:23:41,776: Test data path: data/processed/test_data.csv
+INFO: 2022-04-20 09:23:41,776: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 09:23:41,777: Split ratio: 0.2
+INFO: 2022-04-20 09:23:41,777: Random state: 37
+INFO: 2022-04-20 09:23:41,787: Splitting data into Train and Test
+INFO: 2022-04-20 09:23:41,794: Saving train data into data/processed/train_data.csv
+INFO: 2022-04-20 09:23:41,806: Saving test data into data/processed/test_data.csv
+INFO: 2022-04-20 09:23:48,825: In read_params
+INFO: 2022-04-20 09:23:48,826: Trying to read params.yaml
+INFO: 2022-04-20 09:23:48,834: Parameters read
+INFO: 2022-04-20 09:23:48,834: Returning configs
+INFO: 2022-04-20 10:32:30,849: In read_params
+INFO: 2022-04-20 10:32:30,849: Trying to read params.yaml
+INFO: 2022-04-20 10:33:07,976: In read_params
+INFO: 2022-04-20 10:33:07,976: Trying to read params.yaml
+INFO: 2022-04-20 10:33:08,034: Parameters read
+INFO: 2022-04-20 10:33:08,036: Returning configs
+INFO: 2022-04-20 10:33:46,069: In read_params
+INFO: 2022-04-20 10:33:46,069: Trying to read params.yaml
+INFO: 2022-04-20 10:33:46,094: Parameters read
+INFO: 2022-04-20 10:33:46,099: Returning configs
+INFO: 2022-04-20 10:34:57,472: In read_params
+INFO: 2022-04-20 10:34:57,472: Trying to read params.yaml
+INFO: 2022-04-20 10:34:57,492: Parameters read
+INFO: 2022-04-20 10:34:57,492: Returning configs
+INFO: 2022-04-20 10:35:15,517: In read_params
+INFO: 2022-04-20 10:35:15,517: Trying to read params.yaml
+INFO: 2022-04-20 10:35:15,527: Parameters read
+INFO: 2022-04-20 10:35:15,527: Returning configs
+INFO: 2022-04-20 10:35:42,129: In read_params
+INFO: 2022-04-20 10:35:42,129: Trying to read params.yaml
+INFO: 2022-04-20 10:35:42,152: Parameters read
+INFO: 2022-04-20 10:35:42,153: Returning configs
+INFO: 2022-04-20 10:36:38,358: In read_params
+INFO: 2022-04-20 10:36:38,359: Trying to read params.yaml
+INFO: 2022-04-20 10:36:38,369: Parameters read
+INFO: 2022-04-20 10:36:38,369: Returning configs
+INFO: 2022-04-20 10:39:49,504: In read_params
+INFO: 2022-04-20 10:39:49,505: Trying to read params.yaml
+INFO: 2022-04-20 10:39:49,514: Parameters read
+INFO: 2022-04-20 10:39:49,515: Returning configs
+INFO: 2022-04-20 10:40:07,376: In read_params
+INFO: 2022-04-20 10:40:07,377: Trying to read params.yaml
+INFO: 2022-04-20 10:40:07,385: Parameters read
+INFO: 2022-04-20 10:40:07,386: Returning configs
+INFO: 2022-04-20 10:40:07,397: In read_params
+INFO: 2022-04-20 10:40:07,398: Trying to read params.yaml
+INFO: 2022-04-20 10:40:07,406: Parameters read
+INFO: 2022-04-20 10:40:07,407: Returning configs
+INFO: 2022-04-20 10:41:35,268: In read_params
+INFO: 2022-04-20 10:41:35,268: Trying to read params.yaml
+INFO: 2022-04-20 10:41:35,285: Parameters read
+INFO: 2022-04-20 10:41:35,286: Returning configs
+INFO: 2022-04-20 10:41:35,304: In read_params
+INFO: 2022-04-20 10:41:35,305: Trying to read params.yaml
+INFO: 2022-04-20 10:41:35,312: Parameters read
+INFO: 2022-04-20 10:41:35,313: Returning configs
+INFO: 2022-04-20 11:00:33,083: In load_save_data
+INFO: 2022-04-20 11:00:33,083: Reading config
+INFO: 2022-04-20 11:00:33,083: In read_params
+INFO: 2022-04-20 11:00:33,083: Trying to read params.yaml
+INFO: 2022-04-20 11:00:33,097: Parameters read
+INFO: 2022-04-20 11:00:33,097: Returning configs
+INFO: 2022-04-20 11:00:33,098: Received configs
+INFO: 2022-04-20 11:00:33,101: Reading data with details from config
+INFO: 2022-04-20 11:00:33,102: In read_data
+INFO: 2022-04-20 11:00:33,103: In read_params
+INFO: 2022-04-20 11:00:33,104: Trying to read params.yaml
+INFO: 2022-04-20 11:00:33,116: Parameters read
+INFO: 2022-04-20 11:00:33,116: Returning configs
+INFO: 2022-04-20 11:00:33,117: Provided data path is: data/raw/Concrete_Data.csv
+INFO: 2022-04-20 11:00:33,124: Data read from the provided file
+INFO: 2022-04-20 11:00:33,124: Finished reading data
+INFO: 2022-04-20 11:00:33,125: Saving data locally in path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 11:00:36,756: In split_save_data
+INFO: 2022-04-20 11:00:36,756: Reading config file
+INFO: 2022-04-20 11:00:36,756: In read_params
+INFO: 2022-04-20 11:00:36,756: Trying to read params.yaml
+INFO: 2022-04-20 11:00:36,783: Parameters read
+INFO: 2022-04-20 11:00:36,784: Returning configs
+INFO: 2022-04-20 11:00:36,785: Received config details are:
+INFO: 2022-04-20 11:00:36,785: Train data path: data/processed/train_data.csv
+INFO: 2022-04-20 11:00:36,786: Test data path: data/processed/test_data.csv
+INFO: 2022-04-20 11:00:36,787: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 11:00:36,788: Split ratio: 0.2
+INFO: 2022-04-20 11:00:36,789: Random state: 37
+INFO: 2022-04-20 11:00:36,803: Splitting data into Train and Test
+INFO: 2022-04-20 11:00:36,805: Saving train data into data/processed/train_data.csv
+INFO: 2022-04-20 11:00:36,817: Saving test data into data/processed/test_data.csv
+INFO: 2022-04-20 11:00:40,926: In read_params
+INFO: 2022-04-20 11:00:40,926: Trying to read params.yaml
+INFO: 2022-04-20 11:00:40,951: Parameters read
+INFO: 2022-04-20 11:00:40,953: Returning configs
+INFO: 2022-04-20 11:00:40,965: In read_params
+INFO: 2022-04-20 11:00:40,966: Trying to read params.yaml
+INFO: 2022-04-20 11:00:40,973: Parameters read
+INFO: 2022-04-20 11:00:40,974: Returning configs
+INFO: 2022-04-20 11:01:38,614: In load_save_data
+INFO: 2022-04-20 11:01:38,614: Reading config
+INFO: 2022-04-20 11:01:38,614: In read_params
+INFO: 2022-04-20 11:01:38,614: Trying to read params.yaml
+INFO: 2022-04-20 11:01:38,633: Parameters read
+INFO: 2022-04-20 11:01:38,634: Returning configs
+INFO: 2022-04-20 11:01:38,634: Received configs
+INFO: 2022-04-20 11:01:38,635: Reading data with details from config
+INFO: 2022-04-20 11:01:38,635: In read_data
+INFO: 2022-04-20 11:01:38,636: In read_params
+INFO: 2022-04-20 11:01:38,636: Trying to read params.yaml
+INFO: 2022-04-20 11:01:38,645: Parameters read
+INFO: 2022-04-20 11:01:38,645: Returning configs
+INFO: 2022-04-20 11:01:38,646: Provided data path is: data/raw/Concrete_Data.csv
+INFO: 2022-04-20 11:01:38,654: Data read from the provided file
+INFO: 2022-04-20 11:01:38,654: Finished reading data
+INFO: 2022-04-20 11:01:38,654: Saving data locally in path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 11:01:40,738: In split_save_data
+INFO: 2022-04-20 11:01:40,738: Reading config file
+INFO: 2022-04-20 11:01:40,738: In read_params
+INFO: 2022-04-20 11:01:40,738: Trying to read params.yaml
+INFO: 2022-04-20 11:01:40,760: Parameters read
+INFO: 2022-04-20 11:01:40,761: Returning configs
+INFO: 2022-04-20 11:01:40,767: Received config details are:
+INFO: 2022-04-20 11:01:40,768: Train data path: data/processed/train_data.csv
+INFO: 2022-04-20 11:01:40,769: Test data path: data/processed/test_data.csv
+INFO: 2022-04-20 11:01:40,771: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 11:01:40,772: Split ratio: 0.2
+INFO: 2022-04-20 11:01:40,773: Random state: 37
+INFO: 2022-04-20 11:01:40,786: Splitting data into Train and Test
+INFO: 2022-04-20 11:01:40,788: Saving train data into data/processed/train_data.csv
+INFO: 2022-04-20 11:01:40,802: Saving test data into data/processed/test_data.csv
+INFO: 2022-04-20 11:01:44,800: In read_params
+INFO: 2022-04-20 11:01:44,801: Trying to read params.yaml
+INFO: 2022-04-20 11:01:44,808: Parameters read
+INFO: 2022-04-20 11:01:44,809: Returning configs
+INFO: 2022-04-20 11:01:44,824: In read_params
+INFO: 2022-04-20 11:01:44,824: Trying to read params.yaml
+INFO: 2022-04-20 11:01:44,837: Parameters read
+INFO: 2022-04-20 11:01:44,837: Returning configs
+INFO: 2022-04-20 11:02:11,365: In load_save_data
+INFO: 2022-04-20 11:02:11,377: Reading config
+INFO: 2022-04-20 11:02:11,377: In read_params
+INFO: 2022-04-20 11:02:11,377: Trying to read params.yaml
+INFO: 2022-04-20 11:02:11,385: Parameters read
+INFO: 2022-04-20 11:02:11,386: Returning configs
+INFO: 2022-04-20 11:02:11,386: Received configs
+INFO: 2022-04-20 11:02:11,386: Reading data with details from config
+INFO: 2022-04-20 11:02:11,387: In read_data
+INFO: 2022-04-20 11:02:11,387: In read_params
+INFO: 2022-04-20 11:02:11,387: Trying to read params.yaml
+INFO: 2022-04-20 11:02:11,397: Parameters read
+INFO: 2022-04-20 11:02:11,397: Returning configs
+INFO: 2022-04-20 11:02:11,397: Provided data path is: data/raw/Concrete_Data.csv
+INFO: 2022-04-20 11:02:11,405: Data read from the provided file
+INFO: 2022-04-20 11:02:11,405: Finished reading data
+INFO: 2022-04-20 11:02:11,406: Saving data locally in path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 11:02:13,648: In split_save_data
+INFO: 2022-04-20 11:02:13,648: Reading config file
+INFO: 2022-04-20 11:02:13,648: In read_params
+INFO: 2022-04-20 11:02:13,648: Trying to read params.yaml
+INFO: 2022-04-20 11:02:13,666: Parameters read
+INFO: 2022-04-20 11:02:13,666: Returning configs
+INFO: 2022-04-20 11:02:13,667: Received config details are:
+INFO: 2022-04-20 11:02:13,668: Train data path: data/processed/train_data.csv
+INFO: 2022-04-20 11:02:13,675: Test data path: data/processed/test_data.csv
+INFO: 2022-04-20 11:02:13,675: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 11:02:13,676: Split ratio: 0.2
+INFO: 2022-04-20 11:02:13,677: Random state: 37
+INFO: 2022-04-20 11:02:13,685: Splitting data into Train and Test
+INFO: 2022-04-20 11:02:13,688: Saving train data into data/processed/train_data.csv
+INFO: 2022-04-20 11:02:13,699: Saving test data into data/processed/test_data.csv
+INFO: 2022-04-20 11:02:17,908: In read_params
+INFO: 2022-04-20 11:02:17,908: Trying to read params.yaml
+INFO: 2022-04-20 11:02:17,923: Parameters read
+INFO: 2022-04-20 11:02:17,929: Returning configs
+INFO: 2022-04-20 11:02:17,937: In read_params
+INFO: 2022-04-20 11:02:17,937: Trying to read params.yaml
+INFO: 2022-04-20 11:02:17,947: Parameters read
+INFO: 2022-04-20 11:02:17,949: Returning configs
+INFO: 2022-04-21 03:54:27,256: In load_save_data
+INFO: 2022-04-21 03:54:27,256: Reading config
+INFO: 2022-04-21 03:54:27,256: In read_params
+INFO: 2022-04-21 03:54:27,256: Trying to read params.yaml
+INFO: 2022-04-21 03:54:27,270: Parameters read
+INFO: 2022-04-21 03:54:27,271: Returning configs
+INFO: 2022-04-21 03:54:27,271: Received configs
+INFO: 2022-04-21 03:54:27,271: Reading data with details from config
+INFO: 2022-04-21 03:54:27,271: In read_data
+INFO: 2022-04-21 03:54:27,271: In read_params
+INFO: 2022-04-21 03:54:27,271: Trying to read params.yaml
+INFO: 2022-04-21 03:54:27,278: Parameters read
+INFO: 2022-04-21 03:54:27,278: Returning configs
+INFO: 2022-04-21 03:54:27,279: Provided data path is: data/raw/Concrete_Data.csv
+INFO: 2022-04-21 03:54:27,290: Data read from the provided file
+INFO: 2022-04-21 03:54:27,290: Finished reading data
+INFO: 2022-04-21 03:54:27,291: Saving data locally in path: data/raw/Concrete_raw.csv
+INFO: 2022-04-21 03:54:30,471: In split_save_data
+INFO: 2022-04-21 03:54:30,471: Reading config file
+INFO: 2022-04-21 03:54:30,471: In read_params
+INFO: 2022-04-21 03:54:30,471: Trying to read params.yaml
+INFO: 2022-04-21 03:54:30,489: Parameters read
+INFO: 2022-04-21 03:54:30,489: Returning configs
+INFO: 2022-04-21 03:54:30,490: Received config details are:
+INFO: 2022-04-21 03:54:30,491: Train data path: data/processed/train_data.csv
+INFO: 2022-04-21 03:54:30,491: Test data path: data/processed/test_data.csv
+INFO: 2022-04-21 03:54:30,506: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-21 03:54:30,507: Split ratio: 0.2
+INFO: 2022-04-21 03:54:30,511: Random state: 37
+INFO: 2022-04-21 03:54:30,529: Splitting data into Train and Test
+INFO: 2022-04-21 03:54:30,532: Saving train data into data/processed/train_data.csv
+INFO: 2022-04-21 03:54:30,545: Saving test data into data/processed/test_data.csv
+INFO: 2022-04-21 03:54:35,658: In read_params
+INFO: 2022-04-21 03:54:35,658: Trying to read params.yaml
+INFO: 2022-04-21 03:54:35,678: Parameters read
+INFO: 2022-04-21 03:54:35,679: Returning configs
+INFO: 2022-04-21 03:54:35,699: In read_params
+INFO: 2022-04-21 03:54:35,699: Trying to read params.yaml
+INFO: 2022-04-21 03:54:35,707: Parameters read
+INFO: 2022-04-21 03:54:35,717: Returning configs
+INFO: 2022-04-21 03:54:59,207: In load_save_data
+INFO: 2022-04-21 03:54:59,207: Reading config
+INFO: 2022-04-21 03:54:59,207: In read_params
+INFO: 2022-04-21 03:54:59,217: Trying to read params.yaml
+INFO: 2022-04-21 03:54:59,226: Parameters read
+INFO: 2022-04-21 03:54:59,226: Returning configs
+INFO: 2022-04-21 03:54:59,227: Received configs
+INFO: 2022-04-21 03:54:59,227: Reading data with details from config
+INFO: 2022-04-21 03:54:59,228: In read_data
+INFO: 2022-04-21 03:54:59,228: In read_params
+INFO: 2022-04-21 03:54:59,229: Trying to read params.yaml
+INFO: 2022-04-21 03:54:59,239: Parameters read
+INFO: 2022-04-21 03:54:59,240: Returning configs
+INFO: 2022-04-21 03:54:59,240: Provided data path is: data/raw/Concrete_Data.csv
+INFO: 2022-04-21 03:54:59,248: Data read from the provided file
+INFO: 2022-04-21 03:54:59,249: Finished reading data
+INFO: 2022-04-21 03:54:59,249: Saving data locally in path: data/raw/Concrete_raw.csv
+INFO: 2022-04-21 03:55:01,486: In split_save_data
+INFO: 2022-04-21 03:55:01,486: Reading config file
+INFO: 2022-04-21 03:55:01,502: In read_params
+INFO: 2022-04-21 03:55:01,502: Trying to read params.yaml
+INFO: 2022-04-21 03:55:01,509: Parameters read
+INFO: 2022-04-21 03:55:01,509: Returning configs
+INFO: 2022-04-21 03:55:01,510: Received config details are:
+INFO: 2022-04-21 03:55:01,510: Train data path: data/processed/train_data.csv
+INFO: 2022-04-21 03:55:01,511: Test data path: data/processed/test_data.csv
+INFO: 2022-04-21 03:55:01,512: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-21 03:55:01,512: Split ratio: 0.2
+INFO: 2022-04-21 03:55:01,513: Random state: 37
+INFO: 2022-04-21 03:55:01,530: Splitting data into Train and Test
+INFO: 2022-04-21 03:55:01,536: Saving train data into data/processed/train_data.csv
+INFO: 2022-04-21 03:55:01,561: Saving test data into data/processed/test_data.csv
+INFO: 2022-04-21 03:55:06,054: In read_params
+INFO: 2022-04-21 03:55:06,054: Trying to read params.yaml
+INFO: 2022-04-21 03:55:06,061: Parameters read
+INFO: 2022-04-21 03:55:06,062: Returning configs
+INFO: 2022-04-21 03:55:06,080: In read_params
+INFO: 2022-04-21 03:55:06,082: Trying to read params.yaml
+INFO: 2022-04-21 03:55:06,092: Parameters read
+INFO: 2022-04-21 03:55:06,099: Returning configs
+INFO: 2022-04-21 04:46:51,295: In load_save_data
+INFO: 2022-04-21 04:46:51,295: Reading config
+INFO: 2022-04-21 04:46:51,295: In read_params
+INFO: 2022-04-21 04:46:51,295: Trying to read params.yaml
+INFO: 2022-04-21 04:46:51,313: Parameters read
+INFO: 2022-04-21 04:46:51,314: Returning configs
+INFO: 2022-04-21 04:46:51,314: Received configs
+INFO: 2022-04-21 04:46:51,314: Reading data with details from config
+INFO: 2022-04-21 04:46:51,315: In read_data
+INFO: 2022-04-21 04:46:51,315: In read_params
+INFO: 2022-04-21 04:46:51,315: Trying to read params.yaml
+INFO: 2022-04-21 04:46:51,325: Parameters read
+INFO: 2022-04-21 04:46:51,326: Returning configs
+INFO: 2022-04-21 04:46:51,326: Provided data path is: data/raw/Concrete_Data.csv
+INFO: 2022-04-21 04:46:51,335: Data read from the provided file
+INFO: 2022-04-21 04:46:51,336: Finished reading data
+INFO: 2022-04-21 04:46:51,336: Saving data locally in path: data/raw/Concrete_raw.csv
+INFO: 2022-04-21 04:46:53,928: In split_save_data
+INFO: 2022-04-21 04:46:53,928: Reading config file
+INFO: 2022-04-21 04:46:53,928: In read_params
+INFO: 2022-04-21 04:46:53,934: Trying to read params.yaml
+INFO: 2022-04-21 04:46:53,945: Parameters read
+INFO: 2022-04-21 04:46:53,945: Returning configs
+INFO: 2022-04-21 04:46:53,946: Received config details are:
+INFO: 2022-04-21 04:46:53,946: Train data path: data/processed/train_data.csv
+INFO: 2022-04-21 04:46:53,947: Test data path: data/processed/test_data.csv
+INFO: 2022-04-21 04:46:53,960: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-21 04:46:53,961: Split ratio: 0.2
+INFO: 2022-04-21 04:46:53,966: Random state: 37
+INFO: 2022-04-21 04:46:53,987: Splitting data into Train and Test
+INFO: 2022-04-21 04:46:53,991: Saving train data into data/processed/train_data.csv
+INFO: 2022-04-21 04:46:54,013: Saving test data into data/processed/test_data.csv
+INFO: 2022-04-21 04:46:59,315: In read_params
+INFO: 2022-04-21 04:46:59,315: Trying to read params.yaml
+INFO: 2022-04-21 04:46:59,333: Parameters read
+INFO: 2022-04-21 04:46:59,334: Returning configs
+INFO: 2022-04-21 04:46:59,350: In read_params
+INFO: 2022-04-21 04:46:59,350: Trying to read params.yaml
+INFO: 2022-04-21 04:46:59,359: Parameters read
+INFO: 2022-04-21 04:46:59,367: Returning configs

@@ -1,0 +1,234 @@
+INFO: 2022-04-20 04:48:08,096: In train
+INFO: 2022-04-20 04:48:08,096: Reading config file
+INFO: 2022-04-20 04:48:08,108: Received config details:
+INFO: 2022-04-20 04:48:08,109: Train data path: data/processed/train_data.csv
+INFO: 2022-04-20 04:48:08,109: Test data path: data/processed/test_data.csv
+INFO: 2022-04-20 04:48:08,110: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 04:48:08,111: Split ratio: 0.2
+INFO: 2022-04-20 04:48:08,112: Random state: 37
+INFO: 2022-04-20 04:48:08,112: Target: Concrete compressive strength
+INFO: 2022-04-20 04:48:08,113: Model output: saved_models
+INFO: 2022-04-20 04:48:08,113: Evaluation metrics output: report/scores.json
+INFO: 2022-04-20 04:48:08,114: Best params after training: report/params.json
+INFO: 2022-04-20 04:48:08,134: Splitting data into dependent and independent variables
+INFO: 2022-04-20 04:48:08,137: Building model
+INFO: 2022-04-20 04:48:19,758: Received best fit model
+INFO: 2022-04-20 04:48:20,224: Performance metrics of model saved in: report/scores.json
+INFO: 2022-04-20 04:48:20,226: Best parameters for model saved in: report/params.json
+INFO: 2022-04-20 04:48:20,256: Model saved in: saved_models\model.joblib
+INFO: 2022-04-20 05:06:56,127: In train
+INFO: 2022-04-20 05:06:56,128: Reading config file
+INFO: 2022-04-20 05:06:56,144: Received config details:
+INFO: 2022-04-20 05:06:56,145: Train data path: data/processed/train_data.csv
+INFO: 2022-04-20 05:06:56,145: Test data path: data/processed/test_data.csv
+INFO: 2022-04-20 05:06:56,146: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 05:06:56,146: Split ratio: 0.2
+INFO: 2022-04-20 05:06:56,147: Random state: 37
+INFO: 2022-04-20 05:06:56,150: Target: Concrete compressive strength
+INFO: 2022-04-20 05:06:56,151: Model output: saved_models
+INFO: 2022-04-20 05:06:56,152: Evaluation metrics output: report/scores.json
+INFO: 2022-04-20 05:06:56,167: Best params after training: report/params.json
+INFO: 2022-04-20 05:06:56,195: Splitting data into dependent and independent variables
+INFO: 2022-04-20 05:06:56,210: Building model
+INFO: 2022-04-20 05:10:18,598: In train
+INFO: 2022-04-20 05:10:18,601: Reading config file
+INFO: 2022-04-20 05:10:18,608: Received config details:
+INFO: 2022-04-20 05:10:18,608: Train data path: data/processed/train_data.csv
+INFO: 2022-04-20 05:10:18,609: Test data path: data/processed/test_data.csv
+INFO: 2022-04-20 05:10:18,609: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 05:10:18,610: Split ratio: 0.2
+INFO: 2022-04-20 05:10:18,610: Random state: 37
+INFO: 2022-04-20 05:10:18,616: Target: Concrete compressive strength
+INFO: 2022-04-20 05:10:18,619: Model output: saved_models
+INFO: 2022-04-20 05:10:18,621: Evaluation metrics output: report/scores.json
+INFO: 2022-04-20 05:10:18,622: Best params after training: report/params.json
+INFO: 2022-04-20 05:10:18,640: Splitting data into dependent and independent variables
+INFO: 2022-04-20 05:10:18,646: Building model
+INFO: 2022-04-20 05:11:10,836: In train
+INFO: 2022-04-20 05:11:10,837: Reading config file
+INFO: 2022-04-20 05:11:10,848: Received config details:
+INFO: 2022-04-20 05:11:10,854: Train data path: data/processed/train_data.csv
+INFO: 2022-04-20 05:11:10,856: Test data path: data/processed/test_data.csv
+INFO: 2022-04-20 05:11:10,862: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 05:11:10,864: Split ratio: 0.2
+INFO: 2022-04-20 05:11:10,865: Random state: 37
+INFO: 2022-04-20 05:11:10,866: Target: Concrete compressive strength
+INFO: 2022-04-20 05:11:10,866: Model output: saved_models
+INFO: 2022-04-20 05:11:10,867: Evaluation metrics output: report/scores.json
+INFO: 2022-04-20 05:11:10,867: Best params after training: report/params.json
+INFO: 2022-04-20 05:11:10,892: Splitting data into dependent and independent variables
+INFO: 2022-04-20 05:11:10,895: Building model
+INFO: 2022-04-20 05:12:11,202: In train
+INFO: 2022-04-20 05:12:11,202: Reading config file
+INFO: 2022-04-20 05:12:11,220: Received config details:
+INFO: 2022-04-20 05:12:11,223: Train data path: data/processed/train_data.csv
+INFO: 2022-04-20 05:12:11,224: Test data path: data/processed/test_data.csv
+INFO: 2022-04-20 05:12:11,226: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 05:12:11,227: Split ratio: 0.2
+INFO: 2022-04-20 05:12:11,228: Random state: 37
+INFO: 2022-04-20 05:12:11,235: Target: Concrete compressive strength
+INFO: 2022-04-20 05:12:11,235: Model output: saved_models
+INFO: 2022-04-20 05:12:11,236: Evaluation metrics output: report/scores.json
+INFO: 2022-04-20 05:12:11,236: Best params after training: report/params.json
+INFO: 2022-04-20 05:12:11,246: Splitting data into dependent and independent variables
+INFO: 2022-04-20 05:12:11,248: Building model
+INFO: 2022-04-20 05:15:45,170: In train
+INFO: 2022-04-20 05:15:45,171: Reading config file
+INFO: 2022-04-20 05:15:45,182: Received config details:
+INFO: 2022-04-20 05:15:45,182: Train data path: data/processed/train_data.csv
+INFO: 2022-04-20 05:15:45,183: Test data path: data/processed/test_data.csv
+INFO: 2022-04-20 05:15:45,191: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 05:15:45,192: Split ratio: 0.2
+INFO: 2022-04-20 05:15:45,193: Random state: 37
+INFO: 2022-04-20 05:15:45,193: Target: Concrete compressive strength
+INFO: 2022-04-20 05:15:45,194: Model output: saved_models
+INFO: 2022-04-20 05:15:45,195: Evaluation metrics output: report/scores.json
+INFO: 2022-04-20 05:15:45,195: Best params after training: report/params.json
+INFO: 2022-04-20 05:15:45,213: Splitting data into dependent and independent variables
+INFO: 2022-04-20 05:15:45,216: Building model
+INFO: 2022-04-20 05:15:56,867: Received best fit model
+INFO: 2022-04-20 05:15:57,161: Performance metrics of model saved in: report/scores.json
+INFO: 2022-04-20 05:15:57,163: Best parameters for model saved in: report/params.json
+INFO: 2022-04-20 05:15:57,178: Model saved in: saved_models\model.joblib
+INFO: 2022-04-20 09:23:48,824: In train
+INFO: 2022-04-20 09:23:48,824: Reading config file
+INFO: 2022-04-20 09:23:48,834: Received config details:
+INFO: 2022-04-20 09:23:48,834: Train data path: data/processed/train_data.csv
+INFO: 2022-04-20 09:23:48,835: Test data path: data/processed/test_data.csv
+INFO: 2022-04-20 09:23:48,835: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 09:23:48,835: Split ratio: 0.2
+INFO: 2022-04-20 09:23:48,835: Random state: 37
+INFO: 2022-04-20 09:23:48,835: Target: Concrete compressive strength
+INFO: 2022-04-20 09:23:48,836: Model output: saved_models
+INFO: 2022-04-20 09:23:48,836: Evaluation metrics output: report/scores.json
+INFO: 2022-04-20 09:23:48,836: Best params after training: report/params.json
+INFO: 2022-04-20 09:23:48,847: Splitting data into dependent and independent variables
+INFO: 2022-04-20 09:23:48,861: Building model
+INFO: 2022-04-20 09:24:01,475: Received best fit model
+INFO: 2022-04-20 09:24:02,023: Performance metrics of model saved in: report/scores.json
+INFO: 2022-04-20 09:24:02,027: Best parameters for model saved in: report/params.json
+INFO: 2022-04-20 09:24:02,085: Model saved in: saved_models\model.joblib
+INFO: 2022-04-20 10:40:07,396: In train
+INFO: 2022-04-20 10:40:07,397: Reading config file
+INFO: 2022-04-20 10:40:07,407: Received config details:
+INFO: 2022-04-20 10:40:07,407: Train data path: data/processed/train_data.csv
+INFO: 2022-04-20 10:40:07,408: Test data path: data/processed/test_data.csv
+INFO: 2022-04-20 10:40:07,408: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 10:40:07,409: Split ratio: 0.2
+INFO: 2022-04-20 10:40:07,409: Random state: 37
+INFO: 2022-04-20 10:40:07,409: Target: Concrete compressive strength
+INFO: 2022-04-20 10:40:07,410: Model output: saved_models
+INFO: 2022-04-20 10:40:07,410: Evaluation metrics output: report/scores.json
+INFO: 2022-04-20 10:40:07,410: Best params after training: report/params.json
+INFO: 2022-04-20 10:40:07,424: Splitting data into dependent and independent variables
+INFO: 2022-04-20 10:40:07,426: Building model
+INFO: 2022-04-20 10:41:35,296: In train
+INFO: 2022-04-20 10:41:35,297: Reading config file
+INFO: 2022-04-20 10:41:35,313: Received config details:
+INFO: 2022-04-20 10:41:35,314: Train data path: data/processed/train_data.csv
+INFO: 2022-04-20 10:41:35,314: Test data path: data/processed/test_data.csv
+INFO: 2022-04-20 10:41:35,314: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 10:41:35,315: Split ratio: 0.2
+INFO: 2022-04-20 10:41:35,316: Random state: 37
+INFO: 2022-04-20 10:41:35,317: Target: Concrete compressive strength
+INFO: 2022-04-20 10:41:35,318: Model output: saved_models
+INFO: 2022-04-20 10:41:35,318: Evaluation metrics output: report/scores.json
+INFO: 2022-04-20 10:41:35,319: Best params after training: report/params.json
+INFO: 2022-04-20 10:41:35,333: Splitting data into dependent and independent variables
+INFO: 2022-04-20 10:41:35,335: Building model
+INFO: 2022-04-20 10:41:46,276: Received best fit model
+INFO: 2022-04-20 10:41:46,704: Performance metrics of model saved in: report/scores.json
+INFO: 2022-04-20 10:41:46,706: Best parameters for model saved in: report/params.json
+INFO: 2022-04-20 10:41:46,739: Model saved in: saved_models\model.joblib
+INFO: 2022-04-20 11:00:40,964: In train
+INFO: 2022-04-20 11:00:40,965: Reading config file
+INFO: 2022-04-20 11:00:40,975: Received config details:
+INFO: 2022-04-20 11:00:40,975: Train data path: data/processed/train_data.csv
+INFO: 2022-04-20 11:00:40,976: Test data path: data/processed/test_data.csv
+INFO: 2022-04-20 11:00:40,976: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 11:00:40,976: Split ratio: 0.2
+INFO: 2022-04-20 11:00:40,977: Random state: 37
+INFO: 2022-04-20 11:00:40,977: Target: Concrete compressive strength
+INFO: 2022-04-20 11:00:40,977: Model output: saved_models
+INFO: 2022-04-20 11:00:40,980: Evaluation metrics output: report/scores.json
+INFO: 2022-04-20 11:00:40,982: Best params after training: report/params.json
+INFO: 2022-04-20 11:00:40,993: Splitting data into dependent and independent variables
+INFO: 2022-04-20 11:00:40,996: Building model
+INFO: 2022-04-20 11:01:44,822: In train
+INFO: 2022-04-20 11:01:44,823: Reading config file
+INFO: 2022-04-20 11:01:44,837: Received config details:
+INFO: 2022-04-20 11:01:44,838: Train data path: data/processed/train_data.csv
+INFO: 2022-04-20 11:01:44,838: Test data path: data/processed/test_data.csv
+INFO: 2022-04-20 11:01:44,839: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 11:01:44,839: Split ratio: 0.2
+INFO: 2022-04-20 11:01:44,839: Random state: 37
+INFO: 2022-04-20 11:01:44,840: Target: Concrete compressive strength
+INFO: 2022-04-20 11:01:44,840: Model output: saved_models
+INFO: 2022-04-20 11:01:44,840: Evaluation metrics output: report/scores.json
+INFO: 2022-04-20 11:01:44,841: Best params after training: report/params.json
+INFO: 2022-04-20 11:01:44,852: Splitting data into dependent and independent variables
+INFO: 2022-04-20 11:01:44,859: Building model
+INFO: 2022-04-20 11:02:17,936: In train
+INFO: 2022-04-20 11:02:17,937: Reading config file
+INFO: 2022-04-20 11:02:17,951: Received config details:
+INFO: 2022-04-20 11:02:17,951: Train data path: data/processed/train_data.csv
+INFO: 2022-04-20 11:02:17,952: Test data path: data/processed/test_data.csv
+INFO: 2022-04-20 11:02:17,953: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-20 11:02:17,953: Split ratio: 0.2
+INFO: 2022-04-20 11:02:17,954: Random state: 37
+INFO: 2022-04-20 11:02:17,954: Target: Concrete compressive strength
+INFO: 2022-04-20 11:02:17,955: Model output: saved_models
+INFO: 2022-04-20 11:02:17,955: Evaluation metrics output: report/scores.json
+INFO: 2022-04-20 11:02:17,956: Best params after training: report/params.json
+INFO: 2022-04-20 11:02:17,967: Splitting data into dependent and independent variables
+INFO: 2022-04-20 11:02:17,969: Building model
+INFO: 2022-04-21 03:54:35,697: In train
+INFO: 2022-04-21 03:54:35,698: Reading config file
+INFO: 2022-04-21 03:54:35,719: Received config details:
+INFO: 2022-04-21 03:54:35,719: Train data path: data/processed/train_data.csv
+INFO: 2022-04-21 03:54:35,719: Test data path: data/processed/test_data.csv
+INFO: 2022-04-21 03:54:35,720: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-21 03:54:35,720: Split ratio: 0.2
+INFO: 2022-04-21 03:54:35,721: Random state: 37
+INFO: 2022-04-21 03:54:35,721: Target: Concrete compressive strength
+INFO: 2022-04-21 03:54:35,722: Model output: saved_models
+INFO: 2022-04-21 03:54:35,723: Evaluation metrics output: report/scores.json
+INFO: 2022-04-21 03:54:35,723: Best params after training: report/params.json
+INFO: 2022-04-21 03:54:35,735: Splitting data into dependent and independent variables
+INFO: 2022-04-21 03:54:35,737: Building model
+INFO: 2022-04-21 03:55:06,070: In train
+INFO: 2022-04-21 03:55:06,077: Reading config file
+INFO: 2022-04-21 03:55:06,105: Received config details:
+INFO: 2022-04-21 03:55:06,106: Train data path: data/processed/train_data.csv
+INFO: 2022-04-21 03:55:06,107: Test data path: data/processed/test_data.csv
+INFO: 2022-04-21 03:55:06,107: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-21 03:55:06,108: Split ratio: 0.2
+INFO: 2022-04-21 03:55:06,108: Random state: 37
+INFO: 2022-04-21 03:55:06,108: Target: Concrete compressive strength
+INFO: 2022-04-21 03:55:06,109: Model output: saved_models
+INFO: 2022-04-21 03:55:06,109: Evaluation metrics output: report/scores.json
+INFO: 2022-04-21 03:55:06,112: Best params after training: report/params.json
+INFO: 2022-04-21 03:55:06,133: Splitting data into dependent and independent variables
+INFO: 2022-04-21 03:55:06,136: Building model
+INFO: 2022-04-21 03:55:17,248: Received best fit model
+INFO: 2022-04-21 03:55:17,871: Performance metrics of model saved in: report/scores.json
+INFO: 2022-04-21 03:55:17,876: Best parameters for model saved in: report/params.json
+INFO: 2022-04-21 03:55:17,904: Model saved in: saved_models\model.joblib
+INFO: 2022-04-21 04:46:59,343: In train
+INFO: 2022-04-21 04:46:59,349: Reading config file
+INFO: 2022-04-21 04:46:59,371: Received config details:
+INFO: 2022-04-21 04:46:59,371: Train data path: data/processed/train_data.csv
+INFO: 2022-04-21 04:46:59,372: Test data path: data/processed/test_data.csv
+INFO: 2022-04-21 04:46:59,373: Raw data path: data/raw/Concrete_raw.csv
+INFO: 2022-04-21 04:46:59,374: Split ratio: 0.2
+INFO: 2022-04-21 04:46:59,375: Random state: 37
+INFO: 2022-04-21 04:46:59,375: Target: Concrete compressive strength
+INFO: 2022-04-21 04:46:59,376: Model output: saved_models
+INFO: 2022-04-21 04:46:59,376: Evaluation metrics output: report/scores.json
+INFO: 2022-04-21 04:46:59,377: Best params after training: report/params.json
+INFO: 2022-04-21 04:46:59,398: Splitting data into dependent and independent variables
+INFO: 2022-04-21 04:46:59,401: Building model
+INFO: 2022-04-21 04:47:12,165: Received best fit model
+INFO: 2022-04-21 04:47:12,608: Performance metrics of model saved in: report/scores.json
+INFO: 2022-04-21 04:47:12,611: Best parameters for model saved in: report/params.json
+INFO: 2022-04-21 04:47:12,638: Model saved in: saved_models\model.joblib

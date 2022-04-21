@@ -4,56 +4,56 @@ stages:
     cmd: python src/load_data.py --config=params.yaml
     deps:
     - path: data/raw/Concrete_Data.csv
-      md5: e195fcfc85ac7da75bf58f38b6254162
-      size: 59285
+      md5: b10d7d934f7cc930579594100b193576
+      size: 49590
     - path: src/get_data.py
-      md5: 48e1f343a6a6f45ef203999496af1441
-      size: 636
+      md5: ea20aad33a68412010966180db6e8e4b
+      size: 1064
     - path: src/load_data.py
-      md5: 9a4f3590c6e54507c7ece1e3b8e16c9d
-      size: 604
+      md5: 12af15240c833efdbb19fbeb0a1a176e
+      size: 949
     outs:
     - path: data/raw/Concrete_raw.csv
-      md5: 1af10ddba3fb271a9e3d0f8adab7ebf8
-      size: 49542
+      md5: b10d7d934f7cc930579594100b193576
+      size: 49590
   split_data:
     cmd: python src/split_data.py --config=params.yaml
     deps:
-    - path: data/raw/Concrete_Data.csv
-      md5: e195fcfc85ac7da75bf58f38b6254162
-      size: 59285
+    - path: data/raw/Concrete_raw.csv
+      md5: b10d7d934f7cc930579594100b193576
+      size: 49590
     - path: src/split_data.py
-      md5: d776443ac0b311397891475367940c65
-      size: 961
+      md5: 13272eb557c83a9933165a0302ff62ef
+      size: 1615
     outs:
     - path: data/processed/test_data.csv
-      md5: b9117085c3ae889cc6b009c63dd6e0ae
-      size: 10006
+      md5: 051eeb17ced9336f07eddeddef14b99d
+      size: 10056
     - path: data/processed/train_data.csv
-      md5: 43e9952f3c380f562cc1491f9dfc6a80
-      size: 39670
+      md5: 33932e47f1f4414c8a8ad05735a746d2
+      size: 39668
   train_data:
     cmd: python src/train.py --config=params.yaml
     deps:
     - path: data/processed/test_data.csv
-      md5: b9117085c3ae889cc6b009c63dd6e0ae
-      size: 10006
+      md5: 051eeb17ced9336f07eddeddef14b99d
+      size: 10056
     - path: data/processed/train_data.csv
-      md5: 43e9952f3c380f562cc1491f9dfc6a80
-      size: 39670
+      md5: 33932e47f1f4414c8a8ad05735a746d2
+      size: 39668
     - path: src/model.py
-      md5: 11daa36bc668837634576ba8d46ca021
-      size: 1867
+      md5: 2a567af598613d425015a3b940aa45b9
+      size: 3513
     - path: src/train.py
-      md5: d3cbdb952d640362168142c9ed571edd
-      size: 2791
+      md5: c53451bf6f2cfb52ea01949877d23232
+      size: 3834
     outs:
     - path: report/params.json
-      md5: b57419ce066c0f33bd8a0029994fe1a3
-      size: 84
+      md5: e20e923a47fdb1f2ea59cb7fd264b1a4
+      size: 93
     - path: report/scores.json
-      md5: 93c9d2ef922c4dc6b01e5a084e072e79
+      md5: d2adcd2ba25584dd843a694bba8a9566
       size: 97
     - path: saved_models/model.joblib
-      md5: a638b7315fcbd99866b2c4d9312c1a33
-      size: 957298
+      md5: 1007a4d52257c8ef5e51c5bda66a0480
+      size: 484934

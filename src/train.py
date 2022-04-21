@@ -8,6 +8,11 @@ from sklearn.ensemble import RandomForestRegressor
 import json 
 import argparse 
 import joblib
+from log import logger 
+
+logger = logger('logs/','training.log')
+
+
 def eval(y_pred,y_test):
     rmse = np.sqrt(mean_squared_error(y_test,y_pred))
     mae = mean_absolute_error(y_test,y_pred)
@@ -16,6 +21,8 @@ def eval(y_pred,y_test):
     return rmse,mae,r2
 
 def train(config_path):
+    logger.info("In train")
+    logger.info("Reading config file")
     config = read_params(config_path)
     train_data_path = config['split_data']['train_path'] 
     test_data_path = config['split_data']['test_path']
@@ -29,6 +36,16 @@ def train(config_path):
     
     scores_file = config['report']['scores']
     params_file = config['report']['params']
+    logger.info("Received config details:")
+    logger.info("Train data path: "+str(train_data_path))
+    logger.info("Test data path: "+str(test_data_path))
+    logger.info("Raw data path: "+str(raw_data_path))   
+    logger.info("Split ratio: "+str(split_ratio))
+    logger.info("Random state: "+str(random_state))
+    logger.info("Target: "+str(target))
+    logger.info("Model output: "+str(model_dir))
+    logger.info("Evaluation metrics output: "+str(scores_file))
+    logger.info("Best params after training: "+str(params_file))
 
     if not os.path.isfile(scores_file):
         open(scores_file, "w+").close()
@@ -37,12 +54,15 @@ def train(config_path):
     train_data = pd.read_csv(train_data_path,sep=',')
     test_data = pd.read_csv(test_data_path,sep=',')
 
+    logger.info("Splitting data into dependent and independent variables")
     X_train = train_data.drop(target,axis = 1)
     X_test = test_data.drop(target,axis = 1)
 
     y_train = train_data[target]
     y_test = test_data[target]
+    logger.info("Building model")
     model,params = build_model(X_train,X_test,y_train,y_test)
+    logger.info("Received best fit model")
     model.fit(X_train,y_train)
     '''
     model = RandomForestRegressor(max_depth=max_depth,n_estimators=n_estimators)
@@ -64,18 +84,20 @@ def train(config_path):
             "r2" : r2
         }
         json.dump(score,f,indent=4)
+    logger.info("Performance metrics of model saved in: "+str(scores_file))
     best_params = {}
     with open(params_file,'w+') as f:
         for k,v in params.items():
             best_params[k] = v
         json.dump(best_params,f,indent=4)
 
-
+    logger.info("Best parameters for model saved in: "+str(params_file))
     os.makedirs(model_dir,exist_ok=True)
+    
     model_path = os.path.join(model_dir,"model.joblib")
 
     joblib.dump(model,model_path)
-    
+    logger.info("Model saved in: "+str(model_path))
 
 
 
