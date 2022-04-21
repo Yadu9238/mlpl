@@ -60,7 +60,7 @@ def train(config_path):
     predicted = model.predict(X_test)
     (rmse, mae, r2) = eval(predicted, y_test)
 
-    #print("RF model:(max_depth=%f,n_est=%f):"%(max_depth,n_estimators))
+    # print("RF model:(max_depth=%f,n_est=%f):"%(max_depth,n_estimators))
     print("RMSE = ", rmse)
     print("MAE = ", mae)
     print("R2 = ", r2)
