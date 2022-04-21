@@ -1,7 +1,7 @@
 ## Creating automated pipeline using dvc and git
 
-Using the [UCI Concrete cement prediction] as a base usecase, this project
-uses [DVC],[Optuna] and [mlflow] for an end-to-end implementation of Machine Learning
+Using the [UCI Concrete cement prediction](https://archive.ics.uci.edu/ml/datasets/concrete+compressive+strength) as a base usecase, this project
+uses [DVC](https://dvc.org/),[Optuna](https://optuna.org/) and [mlflow](https://mlflow.org/) for an end-to-end implementation of Machine Learning
 pipeline.
 
 <br>
