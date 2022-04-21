@@ -26,17 +26,15 @@ def train(config_path):
     config = read_params(config_path)
     train_data_path = config['split_data']['train_path']
     test_data_path = config['split_data']['test_path']
-       
+
     target = config['base']['target_col']
     model_dir = config['model_dir']
-   
+
     scores_file = config['report']['scores']
     params_file = config['report']['params']
     logger.info("Received config details:")
     logger.info("Train data path: "+str(train_data_path))
     logger.info("Test data path: "+str(test_data_path))
-    
-    
     logger.info("Target: "+str(target))
     logger.info("Model output: "+str(model_dir))
     logger.info("Evaluation metrics output: "+str(scores_file))
@@ -52,16 +50,14 @@ def train(config_path):
     logger.info("Splitting data into dependent and independent variables")
     X_train = train_data.drop(target, axis=1)
     X_test = test_data.drop(target, axis=1)
-
     y_train = train_data[target]
     y_test = test_data[target]
     logger.info("Building model")
     model, params = build_model(X_train, X_test, y_train, y_test)
     logger.info("Received best fit model")
     model.fit(X_train, y_train)
-    
-    predicted = model.predict(X_test)
 
+    predicted = model.predict(X_test)
     (rmse, mae, r2) = eval(predicted, y_test)
 
     #print("RF model:(max_depth=%f,n_est=%f):"%(max_depth,n_estimators))

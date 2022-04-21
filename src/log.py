@@ -35,7 +35,7 @@ def logger(path, file):
     logger.setLevel(logging.INFO)
     if logger.handlers:
         logger.handlers = []
-    #logger.propagate = False
+    # logger.propagate = False
     # create a file handler for output file
     handler = logging.FileHandler(log_file)
 

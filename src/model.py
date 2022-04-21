@@ -12,7 +12,7 @@ logger = logger('logs/', 'model.log')
 config = read_params('params.yaml')
 models = config['models']['Regression']
 mlflc = MLflowCallback(metric_name='r2_score')
-#test = [x for x in models]
+# test = [x for x in models]
 # print(test)
 
 
@@ -25,29 +25,58 @@ def eval(y_pred, y_test):
 
 
 def create_model(trial, max_feature):
+
     model_type = trial.suggest_categorical("model", [x for x in models])
+
     logger.info("Trial number: "+str(trial.number))
     logger.info("Model: "+str(model_type))
+
     if model_type == 'LinearRegression':
         model = LinearRegression()
+
     if model_type == 'RandomForestRegressor':
+
         max_depth = trial.suggest_int(
-            'max_depth', models['RandomForestRegressor']['min_depth'], max_feature)
+            'max_depth',
+            models['RandomForestRegressor']['min_depth'],
+            max_feature
+        )
+
         n_estimators = trial.suggest_int(
-            'n_estimators', models['RandomForestRegressor']['n_estimators_min'], models['RandomForestRegressor']['n_estimators_max'])
+            'n_estimators',
+            models['RandomForestRegressor']['n_estimators_min'],
+            models['RandomForestRegressor']['n_estimators_max']
+        )
+
         logger.info("Max_depth: "+str(max_depth))
         logger.info("n_estimators: "+str(n_estimators))
+
         model = RandomForestRegressor(
-            max_depth=max_depth, n_estimators=n_estimators)
+            max_depth=max_depth,
+            n_estimators=n_estimators
+        )
+
     if model_type == 'GradientBoostingRegressor':
+
         max_depth = trial.suggest_int(
-            'max_depth', models['GradientBoostingRegressor']['min_depth'], max_feature)
+            'max_depth',
+            models['GradientBoostingRegressor']['min_depth'],
+            max_feature
+        )
+
         n_estimators = trial.suggest_int(
-            'n_estimators', models['GradientBoostingRegressor']['n_estimators_min'], models['RandomForestRegressor']['n_estimators_max'])
+            'n_estimators',
+            models['GradientBoostingRegressor']['n_estimators_min'],
+            models['GradientBoostingRegressor']['n_estimators_max']
+        )
+
         logger.info("Max_depth: "+str(max_depth))
         logger.info("n_estimators: "+str(n_estimators))
+
         model = GradientBoostingRegressor(
-            max_depth=max_depth, n_estimators=n_estimators)
+            max_depth=max_depth,
+            n_estimators=n_estimators
+        )
     # mlflow.sklearn.log_model(model,model_type)
     return model
 
