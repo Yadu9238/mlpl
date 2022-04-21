@@ -83,13 +83,12 @@ def create_model(trial, max_feature):
     # mlflow.sklearn.log_model(model,model_type)
     return model
 
-def objective_with_args(X_train,X_test,y_train,y_test):
-    
+def objective_with_args(X_train, X_test, y_train, y_test):
+
     @mlflc.track_in_mlflow()
     def objective(trial):
         # mlflow.sklearn.autolog()
         model = create_model(trial, X_train.shape[1])
-
         model.fit(X_train, y_train)
         # live.log(trial,model.score(X_test,y_test))
         y_pred = model.predict(X_test)
@@ -99,9 +98,9 @@ def objective_with_args(X_train,X_test,y_train,y_test):
         logger.info("Mean absolute error: "+str(mae))
         logger.info("R2 score: "+str(r2))
         logger.info("################################")
-        mlflow.log_metric('RMSE',rmse)
-        mlflow.log_metric('MAE',mae)
-        mlflow.sklearn.log_model(model,"model")
+        mlflow.log_metric('RMSE', rmse)
+        mlflow.log_metric('MAE', mae)
+        mlflow.sklearn.log_model(model, "model")
         return model.score(X_test, y_test)
     return objective
 
