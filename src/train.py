@@ -71,20 +71,20 @@ def train(config_path):
             "mae": mae,
             "r2": r2
         }
-        # json.dump(score, f, indent=4)
+        json.dump(score, f, indent=4)
     logger.info("Performance metrics of model saved in: "+str(scores_file))
     best_params = {}
     with open(params_file, 'w+') as f:
         for k, v in params.items():
             best_params[k] = v
-        # json.dump(best_params, f, indent=4)
+        json.dump(best_params, f, indent=4)
 
     logger.info("Best parameters for model saved in: "+str(params_file))
-    # os.makedirs(model_dir, exist_ok=True)
+    os.makedirs(model_dir, exist_ok=True)
 
     model_path = os.path.join(model_dir, "model.joblib")
 
-    # joblib.dump(model, model_path)
+    joblib.dump(model, model_path)
     logger.info("Model saved in: "+str(model_path))
 
 

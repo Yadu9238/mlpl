@@ -232,3 +232,18 @@ INFO: 2022-04-21 04:47:12,165: Received best fit model
 INFO: 2022-04-21 04:47:12,608: Performance metrics of model saved in: report/scores.json
 INFO: 2022-04-21 04:47:12,611: Best parameters for model saved in: report/params.json
 INFO: 2022-04-21 04:47:12,638: Model saved in: saved_models\model.joblib
+INFO: 2022-04-21 05:42:08,516: In train
+INFO: 2022-04-21 05:42:08,517: Reading config file
+INFO: 2022-04-21 05:42:08,528: Received config details:
+INFO: 2022-04-21 05:42:08,529: Train data path: data/processed/train_data.csv
+INFO: 2022-04-21 05:42:08,529: Test data path: data/processed/test_data.csv
+INFO: 2022-04-21 05:42:08,530: Target: Concrete compressive strength
+INFO: 2022-04-21 05:42:08,530: Model output: saved_models
+INFO: 2022-04-21 05:42:08,531: Evaluation metrics output: report/scores.json
+INFO: 2022-04-21 05:42:08,531: Best params after training: report/params.json
+INFO: 2022-04-21 05:42:08,546: Splitting data into dependent and independent variables
+INFO: 2022-04-21 05:42:08,549: Building model
+INFO: 2022-04-21 05:42:19,651: Received best fit model
+INFO: 2022-04-21 05:42:20,270: Performance metrics of model saved in: report/scores.json
+INFO: 2022-04-21 05:42:20,283: Best parameters for model saved in: report/params.json
+INFO: 2022-04-21 05:42:20,331: Model saved in: saved_models\model.joblib
