@@ -1,15 +1,17 @@
-import logging 
-import os 
-import sys 
+import logging
+import os
+
 
 # a function  to create and save logs in the log files
+
+
 def logger(path, file):
     """[Create a log file to record the experiment's logs]
-    
+
     Arguments:
         path {string} -- path to the directory
         file {string} -- file name
-    
+
     Returns:
         [func] -- [logger that record logs]
     """
@@ -19,10 +21,10 @@ def logger(path, file):
     fname = file.split('.')[0]
     if not os.path.isfile(log_file):
         if os.path.exists(path):
-            open(os.path.join(path,file), "w+").close()
+            open(os.path.join(path, file), "w+").close()
         else:
             os.makedirs(path)
-            open(os.path.join(path,file), "w+").close()
+            open(os.path.join(path, file), "w+").close()
 
     console_logging_format = "%(levelname)s %(message)s"
     file_logging_format = "%(levelname)s: %(asctime)s: %(message)s"
@@ -39,7 +41,7 @@ def logger(path, file):
 
     # set the logging level for log file
     handler.setLevel(logging.INFO)
-    
+
     # create a logging format
     formatter = logging.Formatter(file_logging_format)
     handler.setFormatter(formatter)
