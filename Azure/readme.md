@@ -1,7 +1,7 @@
-Resource setup:
+Resource setup:<br>
 1.install azure cli, download from website and login
 <p align = "center">
-<img src = "img/cli.PNG" title = "Azure cli" height = 200 width = 200>
+<img src = "img/cli.PNG" title = "Azure cli" height = "50%">
   <em>Download the azure cli from the official page</em>
  </p>
 2. use ui for creating resource group or cli
