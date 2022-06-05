@@ -6,7 +6,7 @@ Resource setup:
  </p>
 2. use ui for creating resource group or cli
 <p align = "center">
-<img src = "/img/rg.PNG" title = "Azure Resource group">
+<img src = "img/rg.PNG" title = "Azure Resource group">
   <em>Create a resource group</em>
  </p>
 ```
@@ -16,7 +16,7 @@ az group create --name <name> --location <loc>
 3.Create machine learning workspace
 Use UI to create ML workspace under resource group created before or the cli 
 <p align = "center">
-<img src = "/img/ml.PNG" title = "Azure Machine Learning workspace">
+<img src = "img/ml.PNG" title = "Azure Machine Learning workspace">
   <em>Create a Machine learning workspace under the resource group</em>
  </p>
 ```
@@ -24,7 +24,7 @@ az ml workspace create -w <name> -g <group-name>
 
 4.setup blob storage and upload data
 <p align = "center">
-<img src = "/img/storage.PNG" title = "Azure Storage account">
+<img src = "img/storage.PNG" title = "Azure Storage account">
   <em>Create a storage account under the resource group</em>
  </p>
 5.create service principal for authentication
@@ -32,15 +32,15 @@ az ml workspace create -w <name> -g <group-name>
 az ad sp create-for-rbac --name <service-name>
 ```
 <p align = "center">
-<img src = "/img/add_role1.PNG" title = "Azure IAM">
+<img src = "img/add_role1.PNG" title = "Azure IAM">
   <em>Goto IAM of azure machine learning workspace and add role assignment</em>
  </p>
 <p align = "center">
-<img src = "/img/add_role2.PNG" title = "Azure IAM">
+<img src = "img/add_role2.PNG" title = "Azure IAM">
   <em>Select role as contributer</em>
  </p>
  <p align = "center">
-<img src = "/img/add_role3.PNG" title = "Azure IAM">
+<img src = "img/add_role3.PNG" title = "Azure IAM">
   <em>Add the service principal created under members</em>
  </p>
 
