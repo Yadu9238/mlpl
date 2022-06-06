@@ -73,13 +73,14 @@ az ad sp create-for-rbac --name <service-name>
   <em>Add the service principal created under members</em>
  </p>
 <br>
-**6. Upload Data to the storage account manually or use [Azure Dataset]**(https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py)
+**6. Upload Data to the storage account manually or use** [Azure Dataset](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py)
 <br>
 
 **7. Setup Environment:**
 
 <br>
 Use CondaDependencies to add the required conda and pip packages.
+
 ```
 def create_aml_environment(aml_interface):
     aml_env = Environment(name=AML_ENV_NAME)
@@ -107,7 +108,9 @@ env.python.conda_dependencies = CondaDependencies.create(
 	pip_packages = ['packages'],
 	pin_sdk_version = False)
 ```
+
 <br>
+
 **8. Sample driver code for main file:**
 
 ```
