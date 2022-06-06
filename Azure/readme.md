@@ -21,9 +21,11 @@ a common platform to perform the same.
  </p>
 
 <br>
+
 ```
 az group create --name <name> --location <loc>
 ```
+
 <br>
 **3. Create a machine learning workspace**
 <br>
