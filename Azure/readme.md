@@ -16,7 +16,7 @@ a common platform to perform the same.
 **2. Use UI for Creating resource group or CLI**
 
 <p align = "center">
-<img src = "img/rg.PNG" title = "Azure Resource group" height = "10%">
+<img src = "img/rg.PNG" title = "Azure Resource group" height = "10%" width="70%"><br>
   <em>Create a resource group</em>
  </p>
 
@@ -33,7 +33,7 @@ az group create --name <name> --location <loc>
 <br>
 Use UI to create ML workspace under resource group created before or the cli 
 <p align = "center">
-<img src = "img/ml.PNG" title = "Azure Machine Learning workspace" height = "10%">
+<img src = "img/ml.PNG" title = "Azure Machine Learning workspace" height = "10%" width="70%"><br>
   <em>Create a Machine learning workspace under the resource group</em>
  </p>
 
@@ -46,7 +46,7 @@ az ml workspace create -w <name> -g <group-name>
 **4. Setup blob storage and Upload data**
 <br>
 <p align = "center">
-<img src = "img/storage.PNG" title = "Azure Storage account" height = "10%">
+<img src = "img/storage.PNG" title = "Azure Storage account" height = "10%" width="70%"><br>
   <em>Create a storage account under the resource group</em>
  </p>
 <br>
@@ -59,17 +59,17 @@ az ad sp create-for-rbac --name <service-name>
 
 <br>
 <p align = "center">
-<img src = "img/add_role1.PNG" title = "Azure IAM" height = "10%">
+<img src = "img/add_role1.PNG" title = "Azure IAM" height = "10%" width="70%"><br>
   <em>Goto IAM of azure machine learning workspace and add role assignment</em>
  </p>
 <br>
 <p align = "center">
-<img src = "img/add_role2.PNG" title = "Azure IAM" height = "10%">
+<img src = "img/add_role2.PNG" title = "Azure IAM" height = "10%" width="70%"><br>
   <em>Select role as contributer</em>
  </p>
 <br>
 <p align = "center">
-<img src = "img/add_role3.PNG" title = "Azure IAM" height = "10%">
+<img src = "img/add_role3.PNG" title = "Azure IAM" height = "10%" width="70%"><br>
   <em>Add the service principal created under members</em>
  </p>
 <br>
