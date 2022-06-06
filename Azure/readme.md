@@ -5,72 +5,74 @@ a common platform to perform the same.
 
 
 ## Steps to recreate:<br>
-1. Install Azure CLI, Download from website and Login
+**1. Install Azure CLI, Download from website and Login**
+
 <p align = "center">
 <img src = "img/cli.PNG" title = "Azure cli" height = "10%">
   <em>Download the azure cli from the official page</em>
  </p>
+<br>
 
-2. Use UI for Creating resource group or CLI
+**2. Use UI for Creating resource group or CLI**
 
 <p align = "center">
 <img src = "img/rg.PNG" title = "Azure Resource group" height = "10%">
   <em>Create a resource group</em>
  </p>
 
+<br>
 ```
 az group create --name <name> --location <loc>
-
 ```
-
-3. Create machine learning workspace
-
+<br>
+**3. Create a machine learning workspace**
+<br>
 Use UI to create ML workspace under resource group created before or the cli 
 <p align = "center">
 <img src = "img/ml.PNG" title = "Azure Machine Learning workspace" height = "10%">
   <em>Create a Machine learning workspace under the resource group</em>
  </p>
 
+<br>
 ```
 az ml workspace create -w <name> -g <group-name>
-
 ```
 
-4. Setup blob storage and Upload data
+**4. Setup blob storage and Upload data**
+<br>
 <p align = "center">
 <img src = "img/storage.PNG" title = "Azure Storage account" height = "10%">
   <em>Create a storage account under the resource group</em>
  </p>
-
-5. Create Service Principal for Authentication
-
+<br>
+**5. Create Service Principal for Authentication**
 ```
 az ad sp create-for-rbac --name <service-name>
-
 ```
+<br>
 <p align = "center">
 <img src = "img/add_role1.PNG" title = "Azure IAM" height = "10%">
   <em>Goto IAM of azure machine learning workspace and add role assignment</em>
  </p>
-
+<br>
 <p align = "center">
 <img src = "img/add_role2.PNG" title = "Azure IAM" height = "10%">
   <em>Select role as contributer</em>
  </p>
-
+<br>
 <p align = "center">
 <img src = "img/add_role3.PNG" title = "Azure IAM" height = "10%">
   <em>Add the service principal created under members</em>
  </p>
+<br>
+**6. Upload Data to the storage account manually or use [Azure Dataset](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py)**
+<br>
 
-6. Upload Data to the storage account manually or use [Azure Dataset](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py)
-
-7. setup env:
-
- Use CondaDependencies to add the required conda and pip packages.
-
-    ```
-    def create_aml_environment(aml_interface):
+**7. Setup Environment:**
+<br>
+Use CondaDependencies to add the required conda and pip packages.
+```
+def create_aml_environment(aml_interface):
     aml_env = Environment(name=AML_ENV_NAME)
     conda_dep = CondaDependencies()
     conda_dep.add_pip_package("numpy==1.18.2")
@@ -87,20 +89,19 @@ az ad sp create-for-rbac --name <service-name>
     aml_env.python.conda_dependencies = conda_dep
     aml_env.docker.enabled = True
     return aml_env
-    ```
- or u can add the packages directly in main driver code
+```
+<br>or you can add the packages directly in main driver code
 
-    ```
-    env.python.conda_dependencies = CondaDependencies.create(
+``` 
+env.python.conda_dependencies = CondaDependencies.create(
 	conda_packages = ['packages'],
 	pip_packages = ['packages'],
 	pin_sdk_version = False)
-    ```
-
-8. Sample driver code for main file:
+```
+<br>
+**8. Sample driver code for main file:**
 
 ```
-
 from azureml.core import Workspace
 from azureml.core.run import Run
 from azureml.core import Experiment, Environment
