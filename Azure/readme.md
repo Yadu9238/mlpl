@@ -50,10 +50,13 @@ az ml workspace create -w <name> -g <group-name>
   <em>Create a storage account under the resource group</em>
  </p>
 <br>
+
 **5. Create Service Principal for Authentication**
+
 ```
 az ad sp create-for-rbac --name <service-name>
 ```
+
 <br>
 <p align = "center">
 <img src = "img/add_role1.PNG" title = "Azure IAM" height = "10%">
@@ -70,10 +73,11 @@ az ad sp create-for-rbac --name <service-name>
   <em>Add the service principal created under members</em>
  </p>
 <br>
-**6. Upload Data to the storage account manually or use [Azure Dataset](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py)**
+**6. Upload Data to the storage account manually or use [Azure Dataset]**(https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py)
 <br>
 
 **7. Setup Environment:**
+
 <br>
 Use CondaDependencies to add the required conda and pip packages.
 ```
