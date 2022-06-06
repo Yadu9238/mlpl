@@ -8,7 +8,7 @@ a common platform to perform the same.
 **1. Install Azure CLI, Download from website and Login**
 
 <p align = "center">
-<img src = "img/cli.PNG" title = "Azure cli" height = "10%">
+<img src = "img/cli.PNG" title = "Azure cli" height = "10%" width="70%">
   <em>Download the azure cli from the official page</em>
  </p>
 <br>
@@ -77,7 +77,6 @@ az ad sp create-for-rbac --name <service-name>
 **6. Upload Data to the storage account manually or use** [Azure Dataset](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py)
 
 **7. Setup Environment:**
-
 <br>
 Use CondaDependencies to add the required conda and pip packages.
 
