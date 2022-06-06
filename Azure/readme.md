@@ -73,7 +73,7 @@ az ad sp create-for-rbac --name <service-name>
   <em>Add the service principal created under members</em>
  </p>
 <br>
-<b>6. Upload Data to the storage account manually or use</b>[Azure Dataset](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py)
+**6. Upload Data to the storage account manually or use** [Azure Dataset](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py)
 
 <br>
 
