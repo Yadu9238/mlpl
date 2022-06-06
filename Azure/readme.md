@@ -8,7 +8,7 @@ a common platform to perform the same.
 **1. Install Azure CLI, Download from website and Login**
 
 <p align = "center">
-<img src = "img/cli.PNG" title = "Azure cli" height = "10%" width="70%">
+<img src = "img/cli.PNG" title = "Azure cli" height = "10%" width="70%"><br>
   <em>Download the azure cli from the official page</em>
  </p>
 <br>
