@@ -76,8 +76,6 @@ az ad sp create-for-rbac --name <service-name>
 
 **6. Upload Data to the storage account manually or use** [Azure Dataset](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py)
 
-<br>
-
 **7. Setup Environment:**
 
 <br>
